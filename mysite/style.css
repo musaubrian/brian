@@ -57,7 +57,7 @@ button {
   width: auto;
   font-size: 1.4rem;
   font-weight: 550;
-  transition: 700ms;
+  transition: 550ms;
 }
 button:hover,
 button:active ,
@@ -66,5 +66,5 @@ button a{
   border: 3px solid #d90429;
   transform: rotate(-5deg);
   font-size: 1.6rem;
-  transition: 700ms;
+  transition: 550ms;
 }
