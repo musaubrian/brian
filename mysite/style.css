@@ -11,7 +11,7 @@
   
 }
 .landing {
-  background: url(https://github.com/musaubrian/brian/blob/main/mysite/images/Coding%20_Monochromatic.svg);
+  background: linear-gradient(35deg, #ef476f, #03516b);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
