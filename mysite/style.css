@@ -5,7 +5,7 @@
 }
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -59,9 +59,10 @@ button {
   font-weight: 550;
   transition: 550ms;
 }
+
 button:hover,
-button:active ,
-button a{
+button:active,
+button a {
   background: none;
   border: 3px solid #d90429;
   transform: rotate(-5deg);
