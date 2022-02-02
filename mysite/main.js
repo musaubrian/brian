@@ -17,7 +17,7 @@ const insertHtml = `
         <img src="./images/Coding _Monochromatic.svg" />
 
         <div class="card-content">
-          <p> This is a simple description of the project that has possibly two to three or even five lines but testing for either justify or align center.</p>
+          <p> This is a simple description of the project that has possibly two to three or even five lines but testing for either justify or align center. View <span> <a href="https://github.com/musaubrian/musaubrian" target="blank">source code</a></span></p>
         </div>
 
         <a href="#" class="button">Live Preview</a>
@@ -27,7 +27,7 @@ const insertHtml = `
         <img src="./images/css.svg" />
 
         <div class="card-content">
-          <p> This is a simple description of the project that has possibly two to three or even five lines but testing for either justify or align center.</p>
+          <p> This is a simple description of the project that has possibly two to three or even five lines but testing for either justify or align center. View <span> <a href="https://github.com/musaubrian/musaubrian" target="blank">source code</a></span> </p>
         </div>
 
         <a href="#" class="button">Live Preview</a>
@@ -37,7 +37,7 @@ const insertHtml = `
         <img src="./images/design.svg" />
 
         <div class="card-content">
-          <p> This is a simple description of the project that has possibly two to three or even five lines but testing for either justify or align center.</p>
+          <p> This is a simple description of the project that has possibly two to three or even five lines but testing for either justify or align center. View the <span> <a href="https://github.com/musaubrian/musaubrian" target="blank">source code</a></span></p>
         </div>
 
         <a href="#" class="button">Live Preview</a>

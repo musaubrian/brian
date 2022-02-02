@@ -79,6 +79,7 @@ h1 {
   align-content: center;
   justify-content: center;
   width: 30%;
+  box-shadow: 2px 4px 15px #0a0a0a8c;
 }
 .card img{
   width: 100%;
@@ -93,6 +94,11 @@ h1 {
 .card-content p{
   font-size: 1.3rem;
   font-weight: 500;
+}
+span a{
+  text-decoration: none;
+  color: #4e04d9e0;
+  font-size: 1.5rem;
 }
 
 .button {
