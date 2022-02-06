@@ -1,9 +1,9 @@
-const n=function(){const s=document.createElement("link").relList;if(s&&s.supports&&s.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))r(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const i of t.addedNodes)i.tagName==="LINK"&&i.rel==="modulepreload"&&r(i)}).observe(document,{childList:!0,subtree:!0});function a(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerpolicy&&(t.referrerPolicy=e.referrerpolicy),e.crossorigin==="use-credentials"?t.credentials="include":e.crossorigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function r(e){if(e.ep)return;e.ep=!0;const t=a(e);fetch(e.href,t)}};n();const o=`
+const n=function(){const s=document.createElement("link").relList;if(s&&s.supports&&s.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))r(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const i of t.addedNodes)i.tagName==="LINK"&&i.rel==="modulepreload"&&r(i)}).observe(document,{childList:!0,subtree:!0});function a(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerpolicy&&(t.referrerPolicy=e.referrerpolicy),e.crossorigin==="use-credentials"?t.credentials="include":e.crossorigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function r(e){if(e.ep)return;e.ep=!0;const t=a(e);fetch(e.href,t)}};n();const c=`
   <div class="landing"> 
     <div class="overlay">
       <div class="inner">
         <div class="pika-container"> 
-        <img src="./images/pikachugif.gif" class="pika"/>
+        <img src="https://github.com/musaubrian/brian/blob/main/mysite/images/pikachugif.gif?raw=true" class="pika"/>
          </div>
         <h1>I'm Ernest</h1>
         <p class="description"> A software engineeer </p>
@@ -15,7 +15,7 @@ const n=function(){const s=document.createElement("link").relList;if(s&&s.suppor
   <section class=""projects"> 
     <div class="projects-container">
       <div class="card">
-        <img src="./images/task.svg" />
+        <img src="https://raw.githubusercontent.com/musaubrian/brian/528209003bfde4e16e8c64c84956438c6c051b90/mysite/images/task.svg" />
 
         <div class="card-content">
           <p> To-do website that stores your tasks on firebase. View <span> <a href="https://github.com/musaubrian/To-do" target="blank">source code</a></span></p>
@@ -25,7 +25,7 @@ const n=function(){const s=document.createElement("link").relList;if(s&&s.suppor
       </div>         
       
       <div class="card">
-        <img src="./images/Finance analytics svg.svg" />
+        <img src="https://raw.githubusercontent.com/musaubrian/brian/528209003bfde4e16e8c64c84956438c6c051b90/mysite/images/Finance%20analytics%20svg.svg" />
 
         <div class="card-content">
           <p> A finance logger built using <strong>Typescript</strong>. View <span> <a href="https://github.com/musaubrian/vite-projects" target="blank">source code</a></span> </p>
@@ -35,7 +35,7 @@ const n=function(){const s=document.createElement("link").relList;if(s&&s.suppor
       </div> 
 
       <div class="card">
-        <img src='./images/Python_Outline.svg' />
+        <img src='https://raw.githubusercontent.com/musaubrian/brian/528209003bfde4e16e8c64c84956438c6c051b90/mysite/images/Python_Outline.svg' />
 
         <div class="card-content">
           <p> A simple typing speed tester GUI built using python.</p>
@@ -54,4 +54,4 @@ const n=function(){const s=document.createElement("link").relList;if(s&&s.suppor
   </section>
 
 
-`;document.querySelector("#app").innerHTML=o;
+`;document.querySelector("#app").innerHTML=c;
