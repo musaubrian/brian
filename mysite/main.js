@@ -5,7 +5,7 @@ const insertHtml = `
     <div class="overlay">
       <div class="inner">
         <div class="pika-container"> 
-        <img src="./images/pikachugif.gif" class="pika"/>
+        <img src="https://github.com/musaubrian/brian/blob/main/mysite/images/pikachugif.gif?raw=true" class="pika"/>
          </div>
         <h1>I'm Ernest</h1>
         <p class="description"> A software engineeer </p>
@@ -17,7 +17,7 @@ const insertHtml = `
   <section class=""projects"> 
     <div class="projects-container">
       <div class="card">
-        <img src="./images/task.svg" />
+        <img src="https://raw.githubusercontent.com/musaubrian/brian/528209003bfde4e16e8c64c84956438c6c051b90/mysite/images/task.svg" />
 
         <div class="card-content">
           <p> To-do website that stores your tasks on firebase. View <span> <a href="https://github.com/musaubrian/To-do" target="blank">source code</a></span></p>
@@ -27,7 +27,7 @@ const insertHtml = `
       </div>         
       
       <div class="card">
-        <img src="./images/Finance analytics svg.svg" />
+        <img src="https://raw.githubusercontent.com/musaubrian/brian/528209003bfde4e16e8c64c84956438c6c051b90/mysite/images/Finance%20analytics%20svg.svg" />
 
         <div class="card-content">
           <p> A finance logger built using <strong>Typescript</strong>. View <span> <a href="https://github.com/musaubrian/vite-projects" target="blank">source code</a></span> </p>
@@ -37,7 +37,7 @@ const insertHtml = `
       </div> 
 
       <div class="card">
-        <img src='./images/Python_Outline.svg' />
+        <img src='https://raw.githubusercontent.com/musaubrian/brian/528209003bfde4e16e8c64c84956438c6c051b90/mysite/images/Python_Outline.svg' />
 
         <div class="card-content">
           <p> A simple typing speed tester GUI built using python.</p>
