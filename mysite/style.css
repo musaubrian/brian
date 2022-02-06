@@ -64,12 +64,18 @@ h1,
 h1 {
   font-weight: 650;
   font-size: 4rem;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter 2s steps(15) infinite alternate,
+  blink 800ms steps(15) infinite normal;
+  border-right: 4px solid #000;
 }
 
 .description {
   font-size: 1.7rem;
   font-weight: 600;
-  text-align: center;
+  text-align: center;  
 }
 
 .projects-container{
@@ -135,9 +141,20 @@ span a{
   font-size: 1.6rem;
   transition: 550ms;
 }
-@keyframes fade-in {
-  0% {
-    transform: translateY(-200%);
+@keyframes typewriter {
+  from {
+  width: 0%;
+  }
+  to {
+  width: 55%;
+  }
+}
+@keyframes blink {
+  from {
+  border-color: #000;
+  }
+  to {
+  border-color: transparent;
   }
 }
 @media screen and (max-width:710px){
@@ -160,9 +177,12 @@ span a{
     width: 100%;
     margin: 1rem auto 1rem;
   }
-  @keyframes fade-in{
-    0% {
-      transform: translateX(-100%);
+  @keyframes typewriter {
+    from {
+    width: 0%;
+    }
+    to {
+    width: 125%;
     }
   }
 }
