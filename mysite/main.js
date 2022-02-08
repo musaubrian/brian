@@ -54,7 +54,33 @@ const insertHtml = `
       <h2>About me section</h2>
     </div>  
   </section>
+  
+  <footer>
+    <div>
+      <ul class="social">
+        <li>
+          <a href="https://twitter.com/nab__ri">
+          <i class="fab fa-twitter"></i>
+          </a>
+        </li> 
 
+        <li>
+          <a href="https://github.com/musaubrian">
+          <i class="fab fa-github"></i>
+          </a>
+        </li> 
+
+        <li>
+          <a href="https://www.linkedin.com/in/ernest-musau/">
+          <i class="fab fa-linkedin-in"></i>
+          </a>
+        </li>      
+      </ul>
+    </div>
+    <div class="bottom">
+      <span class="credits">Made with </span> <Span class="heart"><i class="far fa-heart"></i></Span> <span class="credits"> by 𝕭𝖗𝖎.𝖆𝖓</span>
+    </div>  
+  </footer>
 
 `
 document.querySelector('#app').innerHTML = insertHtml

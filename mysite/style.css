@@ -141,6 +141,56 @@ span a{
   font-size: 1.6rem;
   transition: 550ms;
 }
+
+footer{
+  background: #000;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100%;
+  height: auto;
+  padding: 1rem 1rem 0 1rem;
+}
+
+.bottom{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: flex-end;
+  justify-content: center;
+}
+
+.social{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  list-style: none;
+  align-content: center;
+  justify-content: center;
+}
+.social li{
+  font-size: 3rem;
+  padding: 0 1rem;
+}
+
+.social li a{
+  color: #dfdfdf;
+  transition: 400ms;
+}
+
+.social li a:hover{
+  color: #d90429;
+  font-size: 3.4rem;
+  transition: 400ms;
+}
+.credits{
+  color: #dfdfdf;
+}
+
+.heart{
+  color: #d90429;
+  padding: 0 0.4rem 0 0.4rem;
+}
+
 @keyframes typewriter {
   from {
   width: 0%;
