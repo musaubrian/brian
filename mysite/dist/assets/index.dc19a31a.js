@@ -1,4 +1,4 @@
-const n=function(){const s=document.createElement("link").relList;if(s&&s.supports&&s.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))r(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const i of t.addedNodes)i.tagName==="LINK"&&i.rel==="modulepreload"&&r(i)}).observe(document,{childList:!0,subtree:!0});function a(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerpolicy&&(t.referrerPolicy=e.referrerpolicy),e.crossorigin==="use-credentials"?t.credentials="include":e.crossorigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function r(e){if(e.ep)return;e.ep=!0;const t=a(e);fetch(e.href,t)}};n();const c=`
+const n=function(){const s=document.createElement("link").relList;if(s&&s.supports&&s.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))a(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const i of t.addedNodes)i.tagName==="LINK"&&i.rel==="modulepreload"&&a(i)}).observe(document,{childList:!0,subtree:!0});function r(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerpolicy&&(t.referrerPolicy=e.referrerpolicy),e.crossorigin==="use-credentials"?t.credentials="include":e.crossorigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function a(e){if(e.ep)return;e.ep=!0;const t=r(e);fetch(e.href,t)}};n();const c=`
   <div class="landing"> 
     <div class="overlay">
       <div class="inner">
@@ -52,6 +52,32 @@ const n=function(){const s=document.createElement("link").relList;if(s&&s.suppor
       <h2>About me section</h2>
     </div>  
   </section>
+  
+  <footer>
+    <div>
+      <ul class="social">
+        <li>
+          <a href="https://twitter.com/nab__ri">
+          <i class="fab fa-twitter"></i>
+          </a>
+        </li> 
 
+        <li>
+          <a href="https://github.com/musaubrian">
+          <i class="fab fa-github"></i>
+          </a>
+        </li> 
+
+        <li>
+          <a href="https://www.linkedin.com/in/ernest-musau/">
+          <i class="fab fa-linkedin-in"></i>
+          </a>
+        </li>      
+      </ul>
+    </div>
+    <div class="bottom">
+      <span class="credits">Made with </span> <Span class="heart"><i class="far fa-heart"></i></Span> <span class="credits"> by \u{1D56D}\u{1D597}\u{1D58E}.\u{1D586}\u{1D593}</span>
+    </div>  
+  </footer>
 
 `;document.querySelector("#app").innerHTML=c;
