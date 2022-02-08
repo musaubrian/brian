@@ -158,6 +158,9 @@ footer{
   align-content: flex-end;
   justify-content: center;
 }
+footer div{
+  margin-bottom: 1rem;
+}
 
 .social{
   display: flex;
