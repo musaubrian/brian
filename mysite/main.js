@@ -17,7 +17,7 @@ const insertHtml = `
   <section class=""projects"> 
     <div class="projects-container">
       <div class="card">
-        <img src="https://raw.githubusercontent.com/musaubrian/brian/528209003bfde4e16e8c64c84956438c6c051b90/mysite/images/task.svg" />
+        <img src="https://raw.githubusercontent.com/musaubrian/brian/ac60b402a583c563f19579158cf08545ec146cbb/mysite/images/task.svg" />
 
         <div class="card-content">
           <p> To-do website that stores your tasks on firebase. View <span> <a href="https://github.com/musaubrian/To-do" target="blank">source code</a></span></p>
@@ -27,7 +27,7 @@ const insertHtml = `
       </div>         
       
       <div class="card">
-        <img src="https://raw.githubusercontent.com/musaubrian/brian/528209003bfde4e16e8c64c84956438c6c051b90/mysite/images/Finance%20analytics%20svg.svg" />
+        <img src="https://raw.githubusercontent.com/musaubrian/brian/ac60b402a583c563f19579158cf08545ec146cbb/mysite/images/Finance%20analytics%20svg.svg" />
 
         <div class="card-content">
           <p> A finance logger built using <strong>Typescript</strong>. View <span> <a href="https://github.com/musaubrian/vite-projects" target="blank">source code</a></span> </p>
