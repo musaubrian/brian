@@ -57,19 +57,19 @@ const n=function(){const s=document.createElement("link").relList;if(s&&s.suppor
     <div>
       <ul class="social">
         <li>
-          <a href="https://twitter.com/nab__ri">
+          <a href="https://twitter.com/nab__ri" target="blank">
           <i class="fab fa-twitter"></i>
           </a>
         </li> 
 
         <li>
-          <a href="https://github.com/musaubrian">
+          <a href="https://github.com/musaubrian" target="blank">
           <i class="fab fa-github"></i>
           </a>
         </li> 
 
         <li>
-          <a href="https://www.linkedin.com/in/ernest-musau/">
+          <a href="https://www.linkedin.com/in/ernest-musau/" target="blank">
           <i class="fab fa-linkedin-in"></i>
           </a>
         </li>      
