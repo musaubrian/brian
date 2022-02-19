@@ -62,11 +62,10 @@ export const insertHtml = `
           </p>
         </div>
         <div class="about-me-buttons">
-          <a href="#" download="Ernest's_cv" class="button">
+          <a href="mailto:musaubrian45@gmail.com"  class="button">
            Email
-          </a>
-          
-          
+           <i class="fas fa-paper-plane"></i>
+          </a>          
         </div>
 
       </div>
