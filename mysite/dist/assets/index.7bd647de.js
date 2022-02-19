@@ -1,4 +1,4 @@
-const n=function(){const s=document.createElement("link").relList;if(s&&s.supports&&s.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))a(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const i of t.addedNodes)i.tagName==="LINK"&&i.rel==="modulepreload"&&a(i)}).observe(document,{childList:!0,subtree:!0});function r(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerpolicy&&(t.referrerPolicy=e.referrerpolicy),e.crossorigin==="use-credentials"?t.credentials="include":e.crossorigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function a(e){if(e.ep)return;e.ep=!0;const t=r(e);fetch(e.href,t)}};n();const c=`
+const r=function(){const i=document.createElement("link").relList;if(i&&i.supports&&i.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))s(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const a of t.addedNodes)a.tagName==="LINK"&&a.rel==="modulepreload"&&s(a)}).observe(document,{childList:!0,subtree:!0});function n(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerpolicy&&(t.referrerPolicy=e.referrerpolicy),e.crossorigin==="use-credentials"?t.credentials="include":e.crossorigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function s(e){if(e.ep)return;e.ep=!0;const t=n(e);fetch(e.href,t)}};r();const c=`
   <div class="landing"> 
     <div class="overlay">
       <div class="inner">
@@ -12,7 +12,7 @@ const n=function(){const s=document.createElement("link").relList;if(s&&s.suppor
     </div>
   </div>
 
-  <section class=""projects"> 
+  <section class=""projects" id="projects"> 
     <div class="projects-container">
       <div class="card">
         <img src="https://raw.githubusercontent.com/musaubrian/brian/ac60b402a583c563f19579158cf08545ec146cbb/mysite/images/task.svg" />
@@ -48,8 +48,27 @@ const n=function(){const s=document.createElement("link").relList;if(s&&s.suppor
   </section>
 
   <section class="aboutme" id="aboutme">
-    <div>
-      <h2>About me section</h2>
+    <div class="border">  
+      <div class="about-me-image">
+      </div>    
+      <div class="about-me-content">
+        <div>
+          <p>
+            It is a software development methodology which promotes adaptive planning and continuous improvement of the software being produced. Its main aim is to reduce overhead costs by minimizing documentation.
+          </p>
+          <p>
+            The principles governing it are: customer involvement, embracing change, maintaining simplicity, incremental delivery and people not processes. It is mainly applicable in small to medium scale projects and time critical applications.
+            <span>You can check out my projects <a href="#projects">here</a></span>
+          </p>
+        </div>
+        <div class="about-me-buttons">
+          <a href="mailto:musaubrian45@gmail.com"  class="button">
+           Email
+           <i class="fas fa-paper-plane"></i>
+          </a>          
+        </div>
+
+      </div>
     </div>  
   </section>
   
