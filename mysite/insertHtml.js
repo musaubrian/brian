@@ -1,19 +1,34 @@
 export const insertHtml = `
+  
   <div class="landing"> 
-    <div class="overlay">
-      <div class="inner">
-        <div class="pika-container"> 
-        <img src="https://github.com/musaubrian/brian/blob/main/mysite/images/pikachugif.gif?raw=true" class="pika"/>
-         </div>
-        <h1>I'm Ernest</h1>
-        <p class="description"> A software engineeer </p>
-        <a href="#aboutme" class="button">Reach me</a>
+    <nav>
+      <div class="logo">
+      </div>
+      <div class="links">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#aboutme">About</a></li>
+          <li><a href="#projects">Work</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <div class="welcome-container">
+      <div class="overlay">
+        <div class="inner">
+          <div class="pika-container"> 
+          <img src="https://github.com/musaubrian/brian/blob/main/mysite/images/pikachugif.gif?raw=true" class="pika"/>
+          </div>
+          <h1>I'm Ernest</h1>
+          <p class="description"> A software engineeer </p>
+          <a href="#aboutme" class="button">Reach me</a>
+        </div>
       </div>
     </div>
   </div>
 
   <section class=""projects" id="projects"> 
-    <div class="projects-container owl-carousel">
+    <div class="projects-container">
       <div class="card">
         <img src="https://raw.githubusercontent.com/musaubrian/brian/ac60b402a583c563f19579158cf08545ec146cbb/mysite/images/task.svg" />
 
@@ -42,34 +57,14 @@ export const insertHtml = `
         </div>
 
         <a href="https://github.com/musaubrian/typing-speed-tester" target="blank" class="button">View Code</a>
-      </div>
-      
-      <div class="card">
-        <img src='https://raw.githubusercontent.com/musaubrian/brian/528209003bfde4e16e8c64c84956438c6c051b90/mysite/images/Python_Outline.svg' />
-
-        <div class="card-content">
-          <p> A simple typing speed tester GUI built using python.</p>
-        </div>
-
-        <a href="https://github.com/musaubrian/typing-speed-tester" target="blank" class="button">View Code</a>
-      </div>
-
-      <div class="card owl-carousel">
-        <img src='https://raw.githubusercontent.com/musaubrian/brian/528209003bfde4e16e8c64c84956438c6c051b90/mysite/images/Python_Outline.svg' />
-
-        <div class="card-content">
-          <p> A simple typing speed tester GUI built using python.</p>
-        </div>
-
-        <a href="https://github.com/musaubrian/typing-speed-tester" target="blank" class="button">View Code</a>
-      </div>
-                 
+      </div>                 
     </div>
   </section>
 
   <section class="aboutme" id="aboutme">
     <div class="border">  
       <div class="about-me-image">
+      <img src="https://raw.githubusercontent.com/musaubrian/brian/1ffe1b6b80e05b33222be48b4cc86abefd76f65c/mysite/images/walking.svg" />
       </div>    
       <div class="about-me-content">
         <div>
