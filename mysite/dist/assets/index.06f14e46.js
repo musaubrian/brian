@@ -1,4 +1,4 @@
-const n=function(){const a=document.createElement("link").relList;if(a&&a.supports&&a.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))t(e);new MutationObserver(e=>{for(const s of e)if(s.type==="childList")for(const i of s.addedNodes)i.tagName==="LINK"&&i.rel==="modulepreload"&&t(i)}).observe(document,{childList:!0,subtree:!0});function r(e){const s={};return e.integrity&&(s.integrity=e.integrity),e.referrerpolicy&&(s.referrerPolicy=e.referrerpolicy),e.crossorigin==="use-credentials"?s.credentials="include":e.crossorigin==="anonymous"?s.credentials="omit":s.credentials="same-origin",s}function t(e){if(e.ep)return;e.ep=!0;const s=r(e);fetch(e.href,s)}};n();const c=`
+const n=function(){const i=document.createElement("link").relList;if(i&&i.supports&&i.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))t(e);new MutationObserver(e=>{for(const a of e)if(a.type==="childList")for(const s of a.addedNodes)s.tagName==="LINK"&&s.rel==="modulepreload"&&t(s)}).observe(document,{childList:!0,subtree:!0});function r(e){const a={};return e.integrity&&(a.integrity=e.integrity),e.referrerpolicy&&(a.referrerPolicy=e.referrerpolicy),e.crossorigin==="use-credentials"?a.credentials="include":e.crossorigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function t(e){if(e.ep)return;e.ep=!0;const a=r(e);fetch(e.href,a)}};n();const c=`
   
   <div class="landing"> 
     <nav>
@@ -7,7 +7,7 @@ const n=function(){const a=document.createElement("link").relList;if(a&&a.suppor
       <div class="links">
         <ul class="hide-on-small-only">
           <li><a href="#" class="scrollspy">Home</a></li>
-          <li><a href="#aboutme" class="scrollspy">About</a></li>
+          <li><a href="#aboutme" class="scrollspy" onclick="Blank">About</a></li>
           <li><a href="#projects" class="scrollspy">Work</a></li>
         </ul>
         <li class="hide-on-med-and-up mobile">
@@ -19,9 +19,9 @@ const n=function(){const a=document.createElement("link").relList;if(a&&a.suppor
     </nav>
 
     <ul id="slide-out" class="sidenav">  
-      <li><a href="#" class="scrollspy">Home</a></li>
-      <li><a href="#aboutme" class="scrollspy">About</a></li>
-      <li><a href="#projects" class="scrollspy">Work</a></li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#aboutme" >About</a></li>
+      <li><a href="#projects">Work</a></li>
     </ul>
     
     <div class="welcome-container">
@@ -32,13 +32,13 @@ const n=function(){const a=document.createElement("link").relList;if(a&&a.suppor
           </div>
           <h1>I'm Ernest</h1>
           <p class="description"> A software engineeer </p>
-          <a href="#aboutme" class="button scrollspy">Reach me</a>
+          <a href="#aboutme" class="button">Reach me</a>
         </div>
       </div>
     </div>
   </div>
 
-  <section class=""projects" id="projects"> 
+  <section class=""projects scrollspy" id="projects"> 
     <div class="projects-container">
       <div class="card">
         <img src="https://raw.githubusercontent.com/musaubrian/brian/ac60b402a583c563f19579158cf08545ec146cbb/mysite/images/task.svg" />
@@ -72,8 +72,8 @@ const n=function(){const a=document.createElement("link").relList;if(a&&a.suppor
     </div>
   </section>
 
-  <section class="aboutme scrollspy" id="aboutme">
-    <div class="border">  
+  <section class="aboutme">
+    <div class="border scrollspy" id="aboutme">  
       <div class="about-me-image">
       <img src="https://raw.githubusercontent.com/musaubrian/brian/85f581954a80e817e0b78e79bfd404665152e5ec/mysite/images/call.svg" />
       </div>    
@@ -84,7 +84,7 @@ const n=function(){const a=document.createElement("link").relList;if(a&&a.suppor
           </p>
           <p>
             The principles governing it are: customer involvement, embracing change, maintaining simplicity, incremental delivery and people not processes. It is mainly applicable in small to medium scale projects and time critical applications.
-            <span>You can check out my projects <a href="#projects">here</a></span>
+            <span>You can check out my projects <a href="#projects" class="scrollspy">here</a></span>
           </p>
         </div>
         <div class="about-me-buttons">
