@@ -281,7 +281,7 @@ footer {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   width: 100%;
-  height: auto;
+  height: 100%;
   padding: 1rem 1rem 0;
 }
 
