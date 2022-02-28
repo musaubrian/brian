@@ -10,6 +10,7 @@
   -moz-osx-font-smoothing: grayscale;
   background: #dfdfdf;
 }
+
 .landing {
   background-repeat: no-repeat;
   background-position: center;
@@ -17,9 +18,10 @@
   height: 100vh;
   width: 100%;
   margin: auto;
-  
+
 }
-.overlay{
+
+.overlay {
   height: 100%;
   width: 100%;
   display: flex;
@@ -35,10 +37,11 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-content: center;
-  padding: 1rem;  
+  padding: 1rem;
   animation: fade-in 1.5s ease-in-out;
 }
-.pika-container{
+
+.pika-container {
   width: 100%;
   height: 100%;
   display: flex;
@@ -46,6 +49,7 @@
   justify-items: center;
   margin: auto;
 }
+
 .pika {
   width: auto;
   height: auto;
@@ -68,58 +72,63 @@ h1 {
   white-space: nowrap;
   overflow: hidden;
   animation: typewriter 2s steps(10) infinite alternate,
-  blink 800ms steps(10) infinite normal;
+    blink 800ms steps(10) infinite normal;
   border-right: 4px solid #000;
 }
 
 .description {
   font-size: 1.7rem;
   font-weight: 600;
-  text-align: center;  
+  text-align: center;
 }
-#projects{
+
+#projects {
   height: auto;
   display: flex;
   align-content: center;
   justify-content: center;
 }
-.projects-container{
+
+.projects-container {
   height: auto;
   padding: 1rem;
   display: flex;
   flex-direction: row;
   align-content: center;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
   width: 100%;
 }
-.card{
+
+.card {
   padding: 1rem;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: center;
-  width: 31%;
+  width: 50%;
   border: 3px solid #141414;
 }
-.card img{
+
+.card img {
   width: 100%;
   height: 100%;
   padding: 0.5rem;
 }
-.card-content{
+
+.card-content {
   padding: 1rem;
   text-align: center;
   padding: 1rem;
-  
+
 }
-.card-content p{
+
+.card-content p {
   font-size: 1.3rem;
   font-weight: 500;
   color: #000;
 }
-span a{
+
+span a {
   text-decoration: none;
   color: #00b418;
   font-size: 1.5rem;
@@ -147,14 +156,15 @@ span a{
   transition: 550ms;
 }
 
-.aboutme{
+.aboutme {
   display: flex;
   justify-content: center;
   align-content: center;
-  margin: 1rem auto ;
-  
+  margin: 1rem auto;
+
 }
-.border{
+
+.border {
   width: 94%;
   border: 3px solid #141414;
   margin: 1rem;
@@ -165,14 +175,15 @@ span a{
   flex-wrap: nowrap;
 }
 
-.about-me-image{
+.about-me-image {
   background: #fafd;
   height: 40vh;
   width: 50%;
   margin: 1rem;
   border-radius: 30px;
 }
-.about-me-content{
+
+.about-me-content {
   width: 50%;
   height: auto;
   margin: 1rem;
@@ -181,12 +192,14 @@ span a{
   flex-wrap: wrap;
   padding: 0.5rem;
 }
-.about-me-content p{
+
+.about-me-content p {
   text-align: justify;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
-.about-me-buttons{
+
+.about-me-buttons {
   display: flex;
   align-content: center;
   justify-content: center;
@@ -194,7 +207,7 @@ span a{
   margin: 1rem;
 }
 
-footer{
+footer {
   background: #000;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -203,18 +216,19 @@ footer{
   padding: 1rem 1rem 0;
 }
 
-.bottom{
+.bottom {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   align-content: flex-end;
   justify-content: center;
 }
-footer div{
+
+footer div {
   margin-bottom: 1rem;
 }
 
-.social{
+.social {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -222,79 +236,92 @@ footer div{
   align-content: center;
   justify-content: center;
 }
-.social li{
+
+.social li {
   font-size: 3rem;
   padding: 0 1rem;
 }
 
-.social li a{
+.social li a {
   color: #dfdfdf;
   transition: 400ms;
 }
 
-.social li a:hover{
+.social li a:hover {
   color: #d90429;
   font-size: 3.4rem;
   transition: 400ms;
 }
-.credits{
+
+.credits {
   color: #dfdfdf;
 }
 
-.heart{
+.heart {
   color: #d90429;
   padding: 0 0.4rem;
 }
 
 @keyframes typewriter {
   from {
-  width: 0%;
+    width: 0%;
   }
+
   to {
-  width: 55%;
+    width: 55%;
   }
 }
+
 @keyframes blink {
   from {
-  border-color: #000;
+    border-color: #000;
   }
+
   to {
-  border-color: transparent;
+    border-color: transparent;
   }
 }
-@media screen and (max-width:710px){
+
+@media screen and (max-width:710px) {
+
   h1,
   .description {
     transform: scale(0.9);
     margin: 0.5rem auto;
   }
-  
-  .inner{
+
+  .inner {
     width: 90%;
     margin: auto;
   }
-  .projects-container{
+
+  .projects-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
-  .card{
+
+  .card {
     width: 100%;
     margin: 1rem auto;
   }
-  .border{
+
+  .border {
     flex-wrap: wrap;
   }
+
   .about-me-image,
-  .about-me-content{
+  .about-me-content {
     width: 100%;
   }
+
   @keyframes typewriter {
     from {
-    width: 0%;
+      width: 0%;
     }
+
     to {
-    width: 125%;
+      width: 125%;
     }
   }
 }

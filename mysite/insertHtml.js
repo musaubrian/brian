@@ -13,7 +13,7 @@ export const insertHtml = `
   </div>
 
   <section class=""projects" id="projects"> 
-    <div class="projects-container">
+    <div class="projects-container owl-carousel">
       <div class="card">
         <img src="https://raw.githubusercontent.com/musaubrian/brian/ac60b402a583c563f19579158cf08545ec146cbb/mysite/images/task.svg" />
 
@@ -42,7 +42,27 @@ export const insertHtml = `
         </div>
 
         <a href="https://github.com/musaubrian/typing-speed-tester" target="blank" class="button">View Code</a>
-      </div>                                   
+      </div>
+      
+      <div class="card">
+        <img src='https://raw.githubusercontent.com/musaubrian/brian/528209003bfde4e16e8c64c84956438c6c051b90/mysite/images/Python_Outline.svg' />
+
+        <div class="card-content">
+          <p> A simple typing speed tester GUI built using python.</p>
+        </div>
+
+        <a href="https://github.com/musaubrian/typing-speed-tester" target="blank" class="button">View Code</a>
+      </div>
+
+      <div class="card owl-carousel">
+        <img src='https://raw.githubusercontent.com/musaubrian/brian/528209003bfde4e16e8c64c84956438c6c051b90/mysite/images/Python_Outline.svg' />
+
+        <div class="card-content">
+          <p> A simple typing speed tester GUI built using python.</p>
+        </div>
+
+        <a href="https://github.com/musaubrian/typing-speed-tester" target="blank" class="button">View Code</a>
+      </div>
                  
     </div>
   </section>
