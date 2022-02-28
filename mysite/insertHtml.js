@@ -5,13 +5,24 @@ export const insertHtml = `
       <div class="logo">
       </div>
       <div class="links">
-        <ul>
+        <ul class="hide-on-small-only">
           <li><a href="#">Home</a></li>
           <li><a href="#aboutme">About</a></li>
           <li><a href="#projects">Work</a></li>
         </ul>
+        <li class="hide-on-med-and-up mobile">
+        <a href="#" data-target="slide-out" class="sidenav-trigger">
+          <i class="fas fa-bars"></i>
+        </a>
+        </li>
       </div>
     </nav>
+
+    <ul id="slide-out" class="sidenav">  
+      <li><a href="#">Home</a></li>
+      <li><a href="#aboutme">About</a></li>
+      <li><a href="#projects">Work</a></li>
+    </ul>
     
     <div class="welcome-container">
       <div class="overlay">
@@ -64,7 +75,7 @@ export const insertHtml = `
   <section class="aboutme" id="aboutme">
     <div class="border">  
       <div class="about-me-image">
-      <img src="https://raw.githubusercontent.com/musaubrian/brian/1ffe1b6b80e05b33222be48b4cc86abefd76f65c/mysite/images/walking.svg" />
+      <img src="https://raw.githubusercontent.com/musaubrian/brian/85f581954a80e817e0b78e79bfd404665152e5ec/mysite/images/call.svg" />
       </div>    
       <div class="about-me-content">
         <div>
