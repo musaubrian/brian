@@ -1,13 +1,39 @@
-const r=function(){const i=document.createElement("link").relList;if(i&&i.supports&&i.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))s(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const a of t.addedNodes)a.tagName==="LINK"&&a.rel==="modulepreload"&&s(a)}).observe(document,{childList:!0,subtree:!0});function n(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerpolicy&&(t.referrerPolicy=e.referrerpolicy),e.crossorigin==="use-credentials"?t.credentials="include":e.crossorigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function s(e){if(e.ep)return;e.ep=!0;const t=n(e);fetch(e.href,t)}};r();const c=`
+const r=function(){const a=document.createElement("link").relList;if(a&&a.supports&&a.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))s(e);new MutationObserver(e=>{for(const i of e)if(i.type==="childList")for(const t of i.addedNodes)t.tagName==="LINK"&&t.rel==="modulepreload"&&s(t)}).observe(document,{childList:!0,subtree:!0});function n(e){const i={};return e.integrity&&(i.integrity=e.integrity),e.referrerpolicy&&(i.referrerPolicy=e.referrerpolicy),e.crossorigin==="use-credentials"?i.credentials="include":e.crossorigin==="anonymous"?i.credentials="omit":i.credentials="same-origin",i}function s(e){if(e.ep)return;e.ep=!0;const i=n(e);fetch(e.href,i)}};r();const o=`
+  
   <div class="landing"> 
-    <div class="overlay">
-      <div class="inner">
-        <div class="pika-container"> 
-        <img src="https://github.com/musaubrian/brian/blob/main/mysite/images/pikachugif.gif?raw=true" class="pika"/>
-         </div>
-        <h1>I'm Ernest</h1>
-        <p class="description"> A software engineeer </p>
-        <a href="#aboutme" class="button">Reach me</a>
+    <nav>
+      <div class="logo">
+      </div>
+      <div class="links">
+        <ul class="hide-on-small-only">
+          <li><a href="#">Home</a></li>
+          <li><a href="#aboutme">About</a></li>
+          <li><a href="#projects">Work</a></li>
+        </ul>
+        <li class="hide-on-med-and-up mobile">
+        <a href="#" data-target="slide-out" class="sidenav-trigger">
+          <i class="fas fa-bars"></i>
+        </a>
+        </li>
+      </div>
+    </nav>
+
+    <ul id="slide-out" class="sidenav">  
+      <li><a href="#">Home</a></li>
+      <li><a href="#aboutme">About</a></li>
+      <li><a href="#projects">Work</a></li>
+    </ul>
+    
+    <div class="welcome-container">
+      <div class="overlay">
+        <div class="inner">
+          <div class="pika-container"> 
+          <img src="https://github.com/musaubrian/brian/blob/main/mysite/images/pikachugif.gif?raw=true" class="pika"/>
+          </div>
+          <h1>I'm Ernest</h1>
+          <p class="description"> A software engineeer </p>
+          <a href="#aboutme" class="button">Reach me</a>
+        </div>
       </div>
     </div>
   </div>
@@ -42,14 +68,14 @@ const r=function(){const i=document.createElement("link").relList;if(i&&i.suppor
         </div>
 
         <a href="https://github.com/musaubrian/typing-speed-tester" target="blank" class="button">View Code</a>
-      </div>                                   
-                 
+      </div>                 
     </div>
   </section>
 
   <section class="aboutme" id="aboutme">
     <div class="border">  
       <div class="about-me-image">
+      <img src="https://raw.githubusercontent.com/musaubrian/brian/85f581954a80e817e0b78e79bfd404665152e5ec/mysite/images/call.svg" />
       </div>    
       <div class="about-me-content">
         <div>
@@ -99,4 +125,4 @@ const r=function(){const i=document.createElement("link").relList;if(i&&i.suppor
     </div>  
   </footer>
 
-`;document.querySelector("#app").innerHTML=c;
+`;document.querySelector("#app").innerHTML=o;
