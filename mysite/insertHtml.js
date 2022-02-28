@@ -6,9 +6,9 @@ export const insertHtml = `
       </div>
       <div class="links">
         <ul class="hide-on-small-only">
-          <li><a href="#">Home</a></li>
-          <li><a href="#aboutme">About</a></li>
-          <li><a href="#projects">Work</a></li>
+          <li><a href="#" class="scrollspy">Home</a></li>
+          <li><a href="#aboutme" class="scrollspy">About</a></li>
+          <li><a href="#projects" class="scrollspy">Work</a></li>
         </ul>
         <li class="hide-on-med-and-up mobile">
         <a href="#" data-target="slide-out" class="sidenav-trigger">
@@ -19,9 +19,9 @@ export const insertHtml = `
     </nav>
 
     <ul id="slide-out" class="sidenav">  
-      <li><a href="#">Home</a></li>
-      <li><a href="#aboutme">About</a></li>
-      <li><a href="#projects">Work</a></li>
+      <li><a href="#" class="scrollspy">Home</a></li>
+      <li><a href="#aboutme" class="scrollspy">About</a></li>
+      <li><a href="#projects" class="scrollspy">Work</a></li>
     </ul>
     
     <div class="welcome-container">
@@ -32,7 +32,7 @@ export const insertHtml = `
           </div>
           <h1>I'm Ernest</h1>
           <p class="description"> A software engineeer </p>
-          <a href="#aboutme" class="button">Reach me</a>
+          <a href="#aboutme" class="button scrollspy">Reach me</a>
         </div>
       </div>
     </div>
@@ -72,7 +72,7 @@ export const insertHtml = `
     </div>
   </section>
 
-  <section class="aboutme" id="aboutme">
+  <section class="aboutme scrollspy" id="aboutme">
     <div class="border">  
       <div class="about-me-image">
       <img src="https://raw.githubusercontent.com/musaubrian/brian/85f581954a80e817e0b78e79bfd404665152e5ec/mysite/images/call.svg" />

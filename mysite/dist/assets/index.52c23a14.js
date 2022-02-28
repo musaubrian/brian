@@ -1,4 +1,4 @@
-const r=function(){const a=document.createElement("link").relList;if(a&&a.supports&&a.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))s(e);new MutationObserver(e=>{for(const i of e)if(i.type==="childList")for(const t of i.addedNodes)t.tagName==="LINK"&&t.rel==="modulepreload"&&s(t)}).observe(document,{childList:!0,subtree:!0});function n(e){const i={};return e.integrity&&(i.integrity=e.integrity),e.referrerpolicy&&(i.referrerPolicy=e.referrerpolicy),e.crossorigin==="use-credentials"?i.credentials="include":e.crossorigin==="anonymous"?i.credentials="omit":i.credentials="same-origin",i}function s(e){if(e.ep)return;e.ep=!0;const i=n(e);fetch(e.href,i)}};r();const o=`
+const n=function(){const a=document.createElement("link").relList;if(a&&a.supports&&a.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))t(e);new MutationObserver(e=>{for(const s of e)if(s.type==="childList")for(const i of s.addedNodes)i.tagName==="LINK"&&i.rel==="modulepreload"&&t(i)}).observe(document,{childList:!0,subtree:!0});function r(e){const s={};return e.integrity&&(s.integrity=e.integrity),e.referrerpolicy&&(s.referrerPolicy=e.referrerpolicy),e.crossorigin==="use-credentials"?s.credentials="include":e.crossorigin==="anonymous"?s.credentials="omit":s.credentials="same-origin",s}function t(e){if(e.ep)return;e.ep=!0;const s=r(e);fetch(e.href,s)}};n();const c=`
   
   <div class="landing"> 
     <nav>
@@ -6,9 +6,9 @@ const r=function(){const a=document.createElement("link").relList;if(a&&a.suppor
       </div>
       <div class="links">
         <ul class="hide-on-small-only">
-          <li><a href="#">Home</a></li>
-          <li><a href="#aboutme">About</a></li>
-          <li><a href="#projects">Work</a></li>
+          <li><a href="#" class="scrollspy">Home</a></li>
+          <li><a href="#aboutme" class="scrollspy">About</a></li>
+          <li><a href="#projects" class="scrollspy">Work</a></li>
         </ul>
         <li class="hide-on-med-and-up mobile">
         <a href="#" data-target="slide-out" class="sidenav-trigger">
@@ -19,9 +19,9 @@ const r=function(){const a=document.createElement("link").relList;if(a&&a.suppor
     </nav>
 
     <ul id="slide-out" class="sidenav">  
-      <li><a href="#">Home</a></li>
-      <li><a href="#aboutme">About</a></li>
-      <li><a href="#projects">Work</a></li>
+      <li><a href="#" class="scrollspy">Home</a></li>
+      <li><a href="#aboutme" class="scrollspy">About</a></li>
+      <li><a href="#projects" class="scrollspy">Work</a></li>
     </ul>
     
     <div class="welcome-container">
@@ -32,7 +32,7 @@ const r=function(){const a=document.createElement("link").relList;if(a&&a.suppor
           </div>
           <h1>I'm Ernest</h1>
           <p class="description"> A software engineeer </p>
-          <a href="#aboutme" class="button">Reach me</a>
+          <a href="#aboutme" class="button scrollspy">Reach me</a>
         </div>
       </div>
     </div>
@@ -72,7 +72,7 @@ const r=function(){const a=document.createElement("link").relList;if(a&&a.suppor
     </div>
   </section>
 
-  <section class="aboutme" id="aboutme">
+  <section class="aboutme scrollspy" id="aboutme">
     <div class="border">  
       <div class="about-me-image">
       <img src="https://raw.githubusercontent.com/musaubrian/brian/85f581954a80e817e0b78e79bfd404665152e5ec/mysite/images/call.svg" />
@@ -125,4 +125,4 @@ const r=function(){const a=document.createElement("link").relList;if(a&&a.suppor
     </div>  
   </footer>
 
-`;document.querySelector("#app").innerHTML=o;
+`;document.querySelector("#app").innerHTML=c;
