@@ -291,8 +291,32 @@ footer {
   justify-content: center;
 }
 
-footer div {
+footer .top{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
   margin-bottom: 1rem;
+}
+
+footer .top .left{
+  width: 50%;
+  border-right: 3px solid #d3d3d3;
+  color: #dfdfdf;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+}
+footer .top .right {
+  width: 50%;
+  color: #dfdfdf;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 .social {
@@ -302,6 +326,7 @@ footer div {
   list-style: none;
   align-content: center;
   justify-content: center;
+  width: 100%;
 }
 
 .social li {
@@ -315,7 +340,7 @@ footer div {
 }
 
 .social li a:hover {
-  color: #d90429;
+  color: #dfdfdfb9;
   font-size: 3.4rem;
   transition: 400ms;
 }

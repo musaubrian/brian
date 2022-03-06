@@ -10,7 +10,7 @@ export const insertHtml = `
           <li><a href="#aboutme" class="scrollspy" onclick="Blank">About</a></li>
           <li><a href="#projects" class="scrollspy">Work</a></li>
         </ul>
-        <li class="hide-on-med-and-up mobile">
+        <li class="hide-on-med-and-up mobile"> 
         <a href="#" data-target="slide-out" class="sidenav-trigger">
           <i class="fas fa-bars"></i>
         </a>
@@ -99,7 +99,16 @@ export const insertHtml = `
   </section>
   
   <footer>
-    <div>
+    <div class="top">
+      <div class="left">
+          <h4>Quick Links</h4>
+          <p>Home</p>
+          <p>About</p>
+          <p>Works</p>
+
+      </div>
+      <div class="right">
+      <h4>Connect</h4>
       <ul class="social">
         <li>
           <a href="https://twitter.com/nab__ri" target="blank">
@@ -107,22 +116,23 @@ export const insertHtml = `
           </a>
         </li> 
 
-        <li>
-          <a href="https://github.com/musaubrian" target="blank">
-          <i class="fab fa-github"></i>
-          </a>
-        </li> 
+          <li>
+            <a href="https://github.com/musaubrian" target="blank">
+            <i class="fab fa-github"></i>
+            </a>
+          </li> 
 
-        <li>
-          <a href="https://www.linkedin.com/in/ernest-musau/" target="blank">
-          <i class="fab fa-linkedin-in"></i>
-          </a>
-        </li>      
-      </ul>
+          <li>
+            <a href="https://www.linkedin.com/in/ernest-musau/" target="blank">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </li> 
+        </ul>
+      </div>
+      
     </div>
     <div class="bottom">
       <span class="credits">Made with </span> <Span class="heart"><i class="far fa-heart"></i></Span> <span class="credits"> by 𝕭𝖗𝖎.𝖆𝖓</span>
     </div>  
   </footer>
-
 `;
