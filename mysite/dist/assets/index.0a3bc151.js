@@ -1,4 +1,4 @@
-const n=function(){const i=document.createElement("link").relList;if(i&&i.supports&&i.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))t(e);new MutationObserver(e=>{for(const s of e)if(s.type==="childList")for(const a of s.addedNodes)a.tagName==="LINK"&&a.rel==="modulepreload"&&t(a)}).observe(document,{childList:!0,subtree:!0});function r(e){const s={};return e.integrity&&(s.integrity=e.integrity),e.referrerpolicy&&(s.referrerPolicy=e.referrerpolicy),e.crossorigin==="use-credentials"?s.credentials="include":e.crossorigin==="anonymous"?s.credentials="omit":s.credentials="same-origin",s}function t(e){if(e.ep)return;e.ep=!0;const s=r(e);fetch(e.href,s)}};n();const c=`
+const n=function(){const s=document.createElement("link").relList;if(s&&s.supports&&s.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))t(e);new MutationObserver(e=>{for(const a of e)if(a.type==="childList")for(const i of a.addedNodes)i.tagName==="LINK"&&i.rel==="modulepreload"&&t(i)}).observe(document,{childList:!0,subtree:!0});function r(e){const a={};return e.integrity&&(a.integrity=e.integrity),e.referrerpolicy&&(a.referrerPolicy=e.referrerpolicy),e.crossorigin==="use-credentials"?a.credentials="include":e.crossorigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function t(e){if(e.ep)return;e.ep=!0;const a=r(e);fetch(e.href,a)}};n();const c=`
   
   <div class="landing"> 
     <nav>
@@ -102,16 +102,16 @@ const n=function(){const i=document.createElement("link").relList;if(i&&i.suppor
     <div class="top">
       <div class="left">
           <h4>Quick Links</h4>
-          <p>Home</p>
-          <p>About</p>
-          <p>Works</p>
+          <a href="#">Home</a>
+          <a href="#projects">Work</a>
+          <a href="#aboutme">About</a>
 
       </div>
       <div class="right">
       <h4>Connect</h4>
       <ul class="social">
         <li>
-          <a href="https://twitter.com/nab__ri" target="blank">
+          <a href="https://twitter.com/nab__ri" target="blank" class="twitter">
           <i class="fab fa-twitter"></i>
           </a>
         </li> 
@@ -123,7 +123,7 @@ const n=function(){const i=document.createElement("link").relList;if(i&&i.suppor
           </li> 
 
           <li>
-            <a href="https://www.linkedin.com/in/ernest-musau/" target="blank">
+            <a href="https://www.linkedin.com/in/ernest-musau/" target="blank" class="linkedin">
               <i class="fab fa-linkedin-in"></i>
             </a>
           </li> 
