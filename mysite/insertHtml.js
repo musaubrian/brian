@@ -102,16 +102,16 @@ export const insertHtml = `
     <div class="top">
       <div class="left">
           <h4>Quick Links</h4>
-          <p>Home</p>
-          <p>About</p>
-          <p>Works</p>
+          <a href="#">Home</a>
+          <a href="#projects">Work</a>
+          <a href="#aboutme">About</a>
 
       </div>
       <div class="right">
       <h4>Connect</h4>
       <ul class="social">
         <li>
-          <a href="https://twitter.com/nab__ri" target="blank">
+          <a href="https://twitter.com/nab__ri" target="blank" class="twitter">
           <i class="fab fa-twitter"></i>
           </a>
         </li> 
@@ -123,7 +123,7 @@ export const insertHtml = `
           </li> 
 
           <li>
-            <a href="https://www.linkedin.com/in/ernest-musau/" target="blank">
+            <a href="https://www.linkedin.com/in/ernest-musau/" target="blank" class="linkedin">
               <i class="fab fa-linkedin-in"></i>
             </a>
           </li> 
