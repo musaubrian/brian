@@ -1,9 +1,17 @@
 <script setup>
-import TheWelcome from '@/components/TheWelcome.vue'
+import HomePage from '../components/HomePage.vue';
+import NavBar from '../components/NavBar.vue';
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <NavBar />
+    <HomePage />
   </main>
 </template>
+
+<style>
+  main {
+    height: 100vh;
+  }
+</style>
