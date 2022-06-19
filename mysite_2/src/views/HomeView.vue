@@ -12,6 +12,6 @@ import NavBar from '../components/NavBar.vue';
 
 <style>
   main {
-    height: 100vh;
+    height: 100%;
   }
 </style>

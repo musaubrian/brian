@@ -1,23 +1,16 @@
 <template>
     <nav class="navbar">
-        <div class="left">
-            <div class="logo">
-                <img src="../assets/logo.png" alt="the letter m and b">
-            </div>
-        </div>
-        <div class="links-right">
-            <ul>
-                <li>
-                    <RouterLink to="/" class="_link">Home</RouterLink>
-                </li>
-                <li>
-                    <RouterLink to="/about" class="_link">About</RouterLink>
-                </li>
-                <li>
-                    <RouterLink to="/projects" class="_link">projects</RouterLink>
-                </li>
-            </ul>
-        </div>
+        <ul>
+            <li>
+                <RouterLink to="/" class="_link">Home </RouterLink>
+            </li>
+            <li>
+                <RouterLink to="/about" class="_link">About </RouterLink>
+            </li>
+            <li>
+                <RouterLink to="/projects" class="_link">Work</RouterLink>
+            </li>
+        </ul>
     </nav>
 </template>
 
@@ -27,6 +20,9 @@
 
 <style scoped>
 
+
+
+
     @import '@/assets/base.css';
     .navbar{
         width: 100%;
@@ -34,42 +30,32 @@
         display: flex;
         justify-content: center;
         align-content: center;
-        flex-direction: row;
-        flex-wrap: nowrap;
-    }
-    .left,
-    .links-right {
-        width: 50%;
-    }
-    .logo {
-        display: flex;
-        justify-content: flex-start;
-        align-content: center;
-        height: 100%;
-        background: blue;
-        width: 40%;
-    }
-    .logo img {
-        height: 50%;
-        width: 50%;
-        padding: 1rem;
+        padding: 0.5rem;
+        background-color: var(--color-backround-black);
     }
     ul {
         list-style: none;
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
-        width: 100%;
+        align-content: center;
+        width: 80%;
         padding: 0.5rem;
         background-color: transparent;
     }
     li ._link{
         padding: 1rem;
         font-size: 1.5rem;
-        font-weight: 700;
+        font-weight: 650;
         text-decoration: none;
-        justify-content: flex-end;
-        color: var(--color-text-black);
+        justify-content: center;
+        color: var(--color-text-white);
+        transition: 400ms;
+    }
+
+    li ._link:hover {
+        transition: 400ms;
+        font-size: 1.6rem;
     }
 </style>
 
