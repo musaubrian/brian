@@ -19,9 +19,6 @@
   --color-text-black: var(--vt-c-black-soft);
   --color-text-white: var(--vt-c-white-mute);
 }
-/* import font */
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-
 * {
   box-sizing: border-box;
   margin: 0;
