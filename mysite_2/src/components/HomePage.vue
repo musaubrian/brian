@@ -1,11 +1,14 @@
 <template>
     <div class="hompeage">
         <div class="image-container">
-            <img src="https://github.com/musaubrian/brian/blob/main/mysite/images/pikachugif.gif?raw=true" class="pika">
+            <img src="https://github.com/musaubrian/brian/blob/main/mysite/images/pikachugif.gif?raw=true" alt="pikachu waving" class="pika">
         </div>
         <div class="welcome">
             <h1> I'm Ernest </h1>
             <p> Software Engineer & tech writer </p>
+            <RouterLink to="/about" class="mobile-button">
+                About me
+            </RouterLink>
         </div>
         <div class="socials">
             <RouterLink to="/twitter" class="social-icons">
@@ -54,6 +57,7 @@
     }
     .welcome p {
         font-size: 2rem;
+        margin: 1rem auto;
     }
     .socials {
         display: flex;
@@ -88,12 +92,18 @@
         }
     }
     .social-icons:hover {
-        font-size: 2.4rem;
+        color: var(--color-text-white-mute);
         transition: 500ms;
     }
+    .mobile-button {
+        display: none;
+        visibility: hidden;
+    }
 
-    @media screen and (max-width: 600px) {
-
+    @media screen and (max-width: 580px) {
+        .image-container {
+            margin-top: 2rem;
+        }
         .image-container img {
             width: 60%;
         }
@@ -102,6 +112,24 @@
         }
         .welcome p {
             font-size: 1.3rem;
+        }
+        .mobile-button {
+            visibility: visible;
+            display: flex;
+            padding: 1rem;
+            border: 3px solid var(--color-text-black);
+            border-radius: 15px;
+            margin: 1rem auto;
+            text-decoration: none;
+            color: var(--color-text-black);
+            font-size: 1.2rem;
+            font-weight: 650;
+            transition: 300ms;
+        }
+        .mobile-button:hover {
+            background-color: var(--color-text-black);
+            color: var(--color-text-white);
+            transition: 300ms;
         }
         @keyframes typewriter {
             from {

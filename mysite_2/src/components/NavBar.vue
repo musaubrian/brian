@@ -57,5 +57,14 @@
         transition: 400ms;
         font-size: 1.6rem;
     }
+    @media screen and (max-width: 580px) {
+        
+        .navbar {
+            display: none;
+        }
+        ul {
+            justify-content: center;
+        }
+    }
 </style>
 
