@@ -60,7 +60,7 @@
     @media screen and (max-width: 580px) {
         
         .navbar {
-            display: none;
+            visibility: hidden;
         }
         ul {
             justify-content: center;

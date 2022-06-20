@@ -101,9 +101,6 @@
     }
 
     @media screen and (max-width: 580px) {
-        .image-container {
-            margin-top: 2rem;
-        }
         .image-container img {
             width: 60%;
         }
