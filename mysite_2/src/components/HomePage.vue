@@ -126,7 +126,8 @@
             font-weight: 650;
             transition: 300ms;
         }
-        .mobile-button:hover {
+        .mobile-button:hover,
+        .mobile-button:active {
             background-color: var(--color-text-black);
             color: var(--color-text-white);
             transition: 300ms;
