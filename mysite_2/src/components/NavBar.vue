@@ -31,7 +31,7 @@
         justify-content: center;
         align-content: center;
         padding: 0.5rem;
-        background-color: var(--color-backround-black);
+        background-color: transparent;
     }
     ul {
         list-style: none;
@@ -49,7 +49,7 @@
         font-weight: 650;
         text-decoration: none;
         justify-content: center;
-        color: var(--color-text-white);
+        color: var(--color-text-black);
         transition: 400ms;
     }
 

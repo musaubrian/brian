@@ -40,8 +40,8 @@
         padding: 1rem;
     }
     .image-container img {
-        width: 30%;
-        height: 40%;
+        width: 20%;
+        height: 20%;
         padding: 1rem;
         border-radius: 50%;
     }
@@ -101,7 +101,7 @@
             font-size: 3rem;
         }
         .welcome p {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
         }
         @keyframes typewriter {
             from {
