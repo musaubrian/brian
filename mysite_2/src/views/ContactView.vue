@@ -2,7 +2,7 @@
     <NavBar1 />
     <div class="form-container">
         <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="true">
-            <input type="hidden" name="contact" value="contact" />
+            <input type="hidden" name="form-name" value="contact" />
             <div class="top">
 
                 <label for="name">Name: <input type="text" name="name" required /></label>
