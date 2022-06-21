@@ -2,15 +2,18 @@
     <NavBar1 />
     <div class="form-container">
         <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="true">
+            <input type="hidden" name="contact" value="contact" />
             <div class="top">
 
-                <label>Name: <input type="text" name="name" required/></label>
+                <label for="name">Name: <input type="text" name="name" required /></label>
 
-                <label>Email: <input type="email" name="email" required /></label>
+                <label for="email">Email: <input type="email" name="email" required /></label>
 
             </div>
             <div class="textarea">
-                <textarea placeholder="Message" rows="7"></textarea>
+                <label for="message">
+                    <textarea name="message" placeholder="Message" rows="7"></textarea>
+                </label>
             </div>
             <button type="submit">
                 Send
@@ -47,7 +50,7 @@
         padding: 1rem;
     }
     .top label {
-        padding: 1rem;
+        width: 48%;
     }
     .top input{
         font-size: 1.2rem;
@@ -99,7 +102,8 @@
             align-content: center;
         }
         .top label {
-            padding: 0.5rem;
+            width: 100%;
+            margin-top: 1rem;
         }
         .top input,
         .textarea textarea {
