@@ -1,0 +1,113 @@
+<template>
+    <NavBar1 />
+    <div class="form-container">
+        <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="true">
+            <div class="top">
+
+                <label>Name: <input type="text" name="name" required/></label>
+
+                <label>Email: <input type="email" name="email" required /></label>
+
+            </div>
+            <div class="textarea">
+                <textarea placeholder="Message" rows="7"></textarea>
+            </div>
+            <button type="submit">
+                Send
+                <font-awesome-icon icon="fa-solid fa-paper-plane" />
+            </button>
+
+        </form>
+    </div>
+</template>
+<style scoped>
+
+
+
+    .form-container {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        padding: 1rem;
+    }
+    .form-container form {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+    .top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+        padding: 1rem;
+    }
+    .top label {
+        padding: 1rem;
+    }
+    .top input{
+        font-size: 1.2rem;
+        border: 2px solid var(
+            --color-text-black
+        );
+        background-color: transparent;
+        padding: 0.5rem;
+        border-radius: 15px;
+        text-align: center;
+        width: 100%;
+    }
+    .textarea {
+        padding: 1rem;
+    }
+    .textarea textarea {
+        padding: 0.5rem;
+        border: 2px solid var(--color-text-black);
+        border-radius: 15px;
+        width: 100%;
+        margin: auto;
+        background: transparent;
+        font-size: 1.2rem;
+    }
+    button {
+        width: 40%;
+        margin: auto;
+        font-size: 1.2rem;
+        font-weight: 650;
+        padding: 1rem;
+        border-radius: 15px;
+        border: none;
+        color: var(--color-text-white);
+        background-color: var(--color-backround-black);
+    }
+    button:hover {
+        background-color: transparent;
+        border: 2px solid var(--color-text-black);
+        color: var(--color-text-black);
+    }
+
+    @media screen and (max-width: 790px){
+        .form-container form {
+            width: 100%;
+        }
+        .top{
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+        }
+        .top label {
+            padding: 0.5rem;
+        }
+        .top input,
+        .textarea textarea {
+            font-size: 1.1rem;
+            padding: 0.5rem;
+        }
+    }
+</style>
+<script setup>
+    import NavBar1 from '../components/NavBar.vue';
+</script>

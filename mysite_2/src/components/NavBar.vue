@@ -10,6 +10,9 @@
             <li>
                 <RouterLink to="/projects" class="_link">Work</RouterLink>
             </li>
+            <li>
+                <RouterLink to="/contact" class="_link">Contact</RouterLink>
+            </li>
         </ul>
     </nav>
 </template>
@@ -55,7 +58,7 @@
 
     li ._link:hover {
         transition: 400ms;
-        font-size: 1.6rem;
+        color: var(--color-text-white-mute);
     }
     @media screen and (max-width: 580px) {
         

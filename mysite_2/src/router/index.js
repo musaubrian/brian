@@ -23,6 +23,11 @@ const router = createRouter({
       component: () => import('../views/ProjectsView.vue')
     },
     {
+      path: '/contact',
+      name: 'contact',
+      component: () => import('../views/ContactView.vue')
+    },
+    {
      path: '/github',
      beforeEnter() {location.href = 'http://github.com/musaubrian'}
     },
