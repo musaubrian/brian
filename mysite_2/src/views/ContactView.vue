@@ -12,7 +12,7 @@
             </div>
             <div class="textarea">
                 <label for="message">
-                    <textarea name="message" placeholder="Message" rows="7"></textarea>
+                    <textarea name="message" placeholder="Message" rows="7" required></textarea>
                 </label>
             </div>
             <button type="submit">
