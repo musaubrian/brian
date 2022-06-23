@@ -1,7 +1,7 @@
 <template>
     <div class="hompeage">
         <div class="image-container">
-            <img src="https://github.com/musaubrian/brian/blob/main/mysite/images/pikachugif.gif?raw=true" alt="pikachu waving" class="pika">
+            <img src="../assets/pikachugif.gif" alt="pikachu waving" class="pika">
         </div>
         <div class="welcome">
             <h1> I'm Ernest </h1>

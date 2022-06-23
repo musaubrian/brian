@@ -1,5 +1,6 @@
 <template>
     <NavBar1 />
+    <h1>🙂</h1>
     <div class="form-container">
         <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="true">
             <input type="hidden" name="form-name" value="contact" />
@@ -27,11 +28,15 @@
 
 
 
+    h1 {
+        visibility: hidden;
+    }
     .form-container {
         display: flex;
         justify-content: center;
         align-content: center;
-        width: 100%;
+        width: 90%;
+        margin: auto;
         padding: 1rem;
     }
     .form-container form {
@@ -77,22 +82,30 @@
     }
     button {
         width: 40%;
-        margin: auto;
+        padding: 1rem;
+        border: 3px solid var(--color-text-black);
+        border-radius: 15px;
+        margin: 1rem auto;
+        text-decoration: none;
+        background-color: var(--color-text-black);
+        color: var(--color-text-white-soft);
         font-size: 1.2rem;
         font-weight: 650;
-        padding: 1rem;
-        border-radius: 15px;
-        border: none;
-        color: var(--color-text-white);
-        background-color: var(--color-backround-black);
+        transition: 300ms;
     }
     button:hover {
         background-color: transparent;
-        border: 2px solid var(--color-text-black);
+        padding: 1rem;
         color: var(--color-text-black);
     }
 
     @media screen and (max-width: 790px){
+        h1 {
+            visibility: visible;
+            text-align: center;
+            margin-top: 1rem;
+        }
+        .form-container,
         .form-container form {
             width: 100%;
         }
@@ -108,7 +121,7 @@
         .top input,
         .textarea textarea {
             font-size: 1.1rem;
-            padding: 0.5rem;
+            padding: 0.7rem;
         }
     }
 </style>

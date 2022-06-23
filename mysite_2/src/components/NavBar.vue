@@ -56,17 +56,25 @@
         transition: 400ms;
     }
 
-    li ._link:hover {
+    li ._link:hover,
+    li ._link:active {
         transition: 400ms;
         color: var(--color-text-white-mute);
     }
     @media screen and (max-width: 580px) {
-        
-        .navbar {
-            visibility: hidden;
+        .navbar{
+            background-color: var(--color-navbar-background);
         }
         ul {
+            width: 100%;
             justify-content: center;
+            align-content: center;
+            padding: 0.5rem;
+        }
+        li ._link{
+            font-size: 1.25rem;
+            color: var(--color-text-white-soft);
+            padding: 0.5rem;
         }
     }
 </style>

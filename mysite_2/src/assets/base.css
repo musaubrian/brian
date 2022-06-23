@@ -14,10 +14,12 @@
   --color-background: var(--vt-c-white);
   --color-background-soft: var(--vt-c-white-soft);
   --color-background-mute: var(--vt-c-white-mute);
-  --color-backround-black: var(--vt-c-black-mute);
+  --color-navbar-background: var(--vt-c-black);
+  --color-background-black: var(--vt-c-black-mute);
 
   --color-text-black: var(--vt-c-black-soft);
-  --color-text-white: var(--vt-c-white-soft);
+  --color-text-white: var(--vt-c-white);
+  --color-text-white-soft: var(--vt-c-white-soft);
   --color-text-white-mute: var(--vt-c-white-mute);
 }
 * {
