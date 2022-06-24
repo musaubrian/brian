@@ -1,1 +1,0 @@
-import{o as a,c as o,a as e,F as s,b as t,N as r,D as c}from"./index.21b1d5c1.js";const n=t("h1",null,"Projects page",-1),u={__name:"ProjectsView",setup(_){return(l,p)=>(a(),o(s,null,[e(r),e(c),n],64))}};export{u as default};
