@@ -86,6 +86,7 @@ export default {
             color: var(--color-text-black);
             text-decoration: none;
             font-size: 1.3rem;
+            font-weight: 600;
         }
     }
     
