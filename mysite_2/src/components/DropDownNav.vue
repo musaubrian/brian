@@ -38,6 +38,9 @@ export default {
 <style scoped>
 
 
+
+
+
     @import '@/assets/base.css';
     .dropdown-nav{
         display: none;
@@ -45,24 +48,25 @@ export default {
     @media screen and (max-width: 550px){
         .dropdown-nav{
             display: flex;
-            width: 100%;
+            width: 90%;
             margin: auto;
             flex-direction: column;
             justify-content: center;
             align-content: center;
-            background-color: var(--color-text-black);
+           
         }
         .dropdown-init{
-            width: 90%;
+            width: 100%;
             margin: auto;
             display: flex;
             justify-content: flex-end;
             align-content: center;
             padding: 0.5rem;
-            transition: 400ms;
+            border-bottom: 2px outset var(--color-text-black);
         }
         .dropdown-menu{
             width: 100%;
+            border-bottom: 2px solid var(--color-text-black);
         }
         .dropdown-menu ul{
             margin: auto;
@@ -79,7 +83,7 @@ export default {
             padding: 0.5rem;
         }
         .mobile-links{
-            color: var(--color-text-white);
+            color: var(--color-text-black);
             text-decoration: none;
             font-size: 1.3rem;
         }
