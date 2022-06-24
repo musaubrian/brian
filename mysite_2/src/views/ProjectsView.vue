@@ -1,8 +1,10 @@
 <template>
     <NavBar />
-    <h1>Projects page 1</h1>
+    <DropDownNav />
+    <h1>Projects page</h1>
 </template>
 
 <script setup>
-    import NavBar  from '../components/NavBar.vue'    
+    import NavBar from '../components/NavBar.vue'
+    import DropDownNav from '../components/DropDownNav.vue'
 </script>

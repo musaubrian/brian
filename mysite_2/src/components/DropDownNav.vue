@@ -1,0 +1,88 @@
+<template>
+    <div class="dropdown-nav" @click="isOpen = !isOpen">
+        <div class="dropdown-init">
+            <RouterLink to="#" class="mobile-links">
+                <img src="../assets/menu.svg" alt="menu-icon right">
+            </RouterLink>
+        </div>
+        <div class="dropdown-menu" v-if="isOpen">
+            <ul>
+                <li>
+                    <RouterLink to="/" class="mobile-links">Home</RouterLink>
+                </li>
+                <li>
+                    <RouterLink to="/projects" class="mobile-links">Projects</RouterLink>
+                </li>
+                <li>
+                    <RouterLink to="/about" class="mobile-links">About me</RouterLink>
+                </li>
+                <li>
+                    <RouterLink to="/contact" class="mobile-links">Reach me</RouterLink>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</template>
+
+<script>
+export default {
+    name: 'MobileNav',
+    data() {
+        return {
+            isOpen: false,
+        }
+    }
+}
+</script>
+<style scoped>
+
+
+    @import '@/assets/base.css';
+    .dropdown-nav{
+        display: none;
+    }
+    @media screen and (max-width: 550px){
+        .dropdown-nav{
+            display: flex;
+            width: 100%;
+            margin: auto;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            background-color: var(--color-text-black);
+        }
+        .dropdown-init{
+            width: 90%;
+            margin: auto;
+            display: flex;
+            justify-content: flex-end;
+            align-content: center;
+            padding: 0.5rem;
+            transition: 400ms;
+        }
+        .dropdown-menu{
+            width: 100%;
+        }
+        .dropdown-menu ul{
+            margin: auto;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+        }
+        .dropdown-menu ul li{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            padding: 0.5rem;
+        }
+        .mobile-links{
+            color: var(--color-text-white);
+            text-decoration: none;
+            font-size: 1.3rem;
+        }
+    }
+    
+</style>

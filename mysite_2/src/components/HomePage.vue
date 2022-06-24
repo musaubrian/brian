@@ -102,7 +102,7 @@
 
     @media screen and (max-width: 580px) {
         .image-container img {
-            width: 60%;
+            width: 50%;
         }
         h1 {
             font-size: 3rem;

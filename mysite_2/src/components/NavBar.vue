@@ -2,10 +2,10 @@
     <nav class="navbar">
         <ul>
             <li>
-                <RouterLink to="/" class="_link">Home </RouterLink>
+                <RouterLink to="/" class="_link">Home</RouterLink> 
             </li>
             <li>
-                <RouterLink to="/about" class="_link">About </RouterLink>
+                <RouterLink to="/about" class="_link">About</RouterLink>
             </li>
             <li>
                 <RouterLink to="/projects" class="_link">Work</RouterLink>
@@ -61,20 +61,9 @@
         transition: 400ms;
         color: var(--color-text-white-mute);
     }
-    @media screen and (max-width: 580px) {
+    @media screen and (max-width: 550px) {
         .navbar{
-            background-color: var(--color-navbar-background);
-        }
-        ul {
-            width: 100%;
-            justify-content: center;
-            align-content: center;
-            padding: 0.5rem;
-        }
-        li ._link{
-            font-size: 1.25rem;
-            color: var(--color-text-white-soft);
-            padding: 0.5rem;
+            display: none;
         }
     }
 </style>
