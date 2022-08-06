@@ -36,11 +36,6 @@ export default {
 }
 </script>
 <style scoped>
-
-
-
-
-
     @import '@/assets/base.css';
     .dropdown-nav{
         display: none;
