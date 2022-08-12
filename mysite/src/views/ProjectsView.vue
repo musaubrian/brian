@@ -1,8 +1,10 @@
 <template>
-    <NavBar />
-    <DropDownNav />
-    <div class="projects-container">
-	<h2> Still in progress...</h2>	
+    <div>
+        <NavBar />
+        <DropDownNav />
+        <div class="projects-container">
+            <h2> Still in progress...</h2>	
+        </div>
     </div>
 </template>
 

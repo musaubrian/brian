@@ -1,21 +1,21 @@
 <template>
   <div>
 	<NavBar />
-  <DropDownNav />
-  <div class="about">
-    <div class="about-image">
-		<img src="../assets/person_.svg" alt="">
-	</div>
-	<div class="about-me">
-		<p>
-		I'm Ernest, a software engineering student
-		interested in web development and
-		</p>
-		<RouterLink to="/contact" class="button">
-			Reach me
-		</RouterLink>
-	</div>
-  </div>
+	<DropDownNav />
+	<div class="about">
+		<div class="about-image">
+			<img src="../assets/person_.svg" alt="">
+		</div>
+		<div class="about-me">
+			<p>
+			I'm Ernest, a software engineering student
+			interested in web development and
+			</p>
+			<RouterLink to="/contact" class="button">
+				Reach me
+			</RouterLink>
+		</div>
+  	</div>
   </div>
 </template>
 
