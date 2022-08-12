@@ -1,34 +1,39 @@
 <template>
-    <NavBar1 />
-    <DropDownNav />
-    <h1>I would like to hear from you : )</h1>
-    <div class="form-container">
-        <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="true">
-            <input type="hidden" name="form-name" value="contact" />
-            <div class="top">
+    <div>
+        <NavBar />
+        <DropDownNav />
+        <h1>I would like to hear from you : )</h1>
+        <div class="form-container">
+            <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="true">
+                <input type="hidden" name="form-name" value="contact" />
+                <div class="top">
 
-                <label for="name">Name: <input type="text" name="name" required /></label>
+                    <label for="name">Name: <input type="text" name="name" required /></label>
 
-                <label for="email">Email: <input type="email" name="email" required /></label>
+                    <label for="email">Email: <input type="email" name="email" required /></label>
 
-            </div>
-            <div class="textarea">
-                <label for="message">
-                    <textarea name="message" placeholder="Message" rows="7" required></textarea>
-                </label>
-            </div>
-            <button type="submit">
-                Send
-                <font-awesome-icon icon="fa-solid fa-paper-plane" />
-            </button>
+                </div>
+                <div class="textarea">
+                    <label for="message">
+                        <textarea name="message" placeholder="Message" rows="7" required></textarea>
+                    </label>
+                </div>
+                <button type="submit">
+                    Send
+                    <font-awesome-icon icon="fa-solid fa-paper-plane" />
+                </button>
 
-        </form>
+            </form>
+        </div>
     </div>
 </template>
 
-<script setup>
-    import NavBar1 from '../components/NavBar.vue';
-    import DropDownNav from '../components/DropDownNav.vue'
+<script>
+import DropDownNav from '../components/DropDownNav.vue';
+import NavBar from '../components/NavBar.vue';
+export default {
+    components: { DropDownNav, NavBar }
+}
 </script>
 
 <style scoped>
