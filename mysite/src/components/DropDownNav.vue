@@ -1,5 +1,12 @@
+<script setup>
+    import { ref} from 'vue';
+    import {vAutoAnimate} from "@formkit/auto-animate"
+
+    const isOpen = ref(false);
+</script>
+
 <template>
-    <div class="dropdown-nav" @click="isOpen = !isOpen">
+    <div v-auto-animate class="dropdown-nav" @click="isOpen = !isOpen">
         <div class="dropdown-init">
             <RouterLink to="#" class="mobile-links">
                 <img src="../assets/menu.svg" alt="menu-icon right">
@@ -25,16 +32,6 @@
 
 </template>
 
-<script>
-export default {
-    name: 'MobileNav',
-    data() {
-        return {
-            isOpen: false,
-        }
-    }
-}
-</script>
 <style scoped>
     @import '@/assets/base.css';
     .dropdown-nav{
@@ -43,7 +40,7 @@ export default {
     @media screen and (max-width: 550px){
         .dropdown-nav{
             display: flex;
-            width: 90%;
+            width: 95%;
             margin: auto;
             flex-direction: column;
             justify-content: center;
