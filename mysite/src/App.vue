@@ -1,9 +1,19 @@
 <script setup>
 import { RouterView } from 'vue-router'
+import NavBar from './components/NavBar.vue';
+import DropDownNav from './components/DropDownNav.vue';
 </script>
 
 <template>
-  <RouterView />
+  <div>
+    <NavBar/>
+    <DropDownNav/>
+    <RouterView v-slot="{ Component }">
+      <Transition name="fade" mode="out-in">
+        <component :is="Component" />
+      </Transition>
+    </RouterView>
+  </div>
 </template>
 
 <style>
@@ -13,7 +23,13 @@ import { RouterView } from 'vue-router'
   font-weight: normal;
 }
 
-@media (min-width: 1024px) {
- 
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease-in-out;
 }
 </style>

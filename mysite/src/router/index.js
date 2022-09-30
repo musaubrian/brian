@@ -16,6 +16,10 @@ const router = createRouter({
       component: AboutView
     },
     {
+      path: '/projects',
+      beforeEnter() {location.href = "#projects"}
+    },
+    {
      path: '/github',
      beforeEnter() {location.href = 'http://github.com/musaubrian'}
     },

@@ -1,7 +1,4 @@
 <template>
-  <div>
-	<NavBar />
-	<DropDownNav />
 	<div class="about">
 		<div class="about-image">
 			<img src="../assets/person_.svg" alt="">
@@ -16,16 +13,7 @@
 			</RouterLink>
 		</div>
   	</div>
-  </div>
 </template>
-
-<script>
-import NavBar from '../components/NavBar.vue';
-import DropDownNav from '../components/DropDownNav.vue';
-export default {
-    components: { NavBar, DropDownNav }
-}
-</script>
 
 <style>
 
