@@ -8,10 +8,10 @@
                 <RouterLink to="/about" class="_link">About</RouterLink>
             </li>
             <li>
-                <RouterLink to="/projects" class="_link">Work</RouterLink>
+                <RouterLink to="#projects" class="_link">Work</RouterLink>
             </li>
             <li>
-                <RouterLink to="/contact" class="_link">Contact</RouterLink>
+                <RouterLink to="#contact" class="_link">Contact</RouterLink>
             </li>
         </ul>
     </nav>
@@ -38,6 +38,7 @@
         align-content: center;
         padding: 0.5rem;
         background-color: transparent;
+        position: static;
     }
     ul {
         list-style: none;

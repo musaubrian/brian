@@ -1,7 +1,5 @@
 <template>
-    <div>
-        <NavBar />
-        <DropDownNav />
+    <section id="contact">
         <h1>I would like to hear from you : )</h1>
         <div class="form-container">
             <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="true">
@@ -25,16 +23,8 @@
 
             </form>
         </div>
-    </div>
+    </section>
 </template>
-
-<script>
-import DropDownNav from '../components/DropDownNav.vue';
-import NavBar from '../components/NavBar.vue';
-export default {
-    components: { DropDownNav, NavBar }
-}
-</script>
 
 <style scoped>
 
