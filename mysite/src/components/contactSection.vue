@@ -109,6 +109,7 @@
             visibility: visible;
             text-align: center;
             margin-top: 1rem;
+            padding: 1rem;
         }
         .form-container,
         .form-container form {
