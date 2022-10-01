@@ -21,6 +21,7 @@ import DropDownNav from './components/DropDownNav.vue';
 
 #app {
   font-weight: normal;
+  height: 100%;
 }
 
 .fade-enter-from,

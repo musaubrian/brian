@@ -1,20 +1,18 @@
 <template>
-    <section>
-      <div class="about">
-          <div class="about-image">
-              <img src="../assets/person_.svg" alt="">
-          </div>
-          <div class="about-me">
-              <p>
-              I'm Ernest, a software engineering student
-              interested in web development and
-              </p>
-              <RouterLink to="/contact" class="button">
-                  Reach me
-              </RouterLink>
-          </div>
+    <div class="about">
+        <div class="about-image">
+            <img src="../assets/person_.svg" alt="">
         </div>
-    </section>
+        <div class="about-me">
+            <p>
+            I'm Ernest, a software engineering student
+            interested in web development and
+            </p>
+            <RouterLink to="/contact" class="button">
+                Reach me
+            </RouterLink>
+        </div>
+    </div>
   </template>
   
   <style>
@@ -25,6 +23,7 @@
       display: flex;
       flex-direction: row;
       width: 100%;
+      height: 100%;
       padding: 1rem;
   }
   
