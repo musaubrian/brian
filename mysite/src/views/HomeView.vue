@@ -4,9 +4,6 @@
   import ContactSection from '../components/contactSection.vue';
   import FooterSection from '../components/FooterSection.vue';
   import AboutSection from '../components/AboutSection.vue';
-  export default {
-    components: { HomePage, ProjectsSection, ContactSection, FooterSection, AboutSection }
-  }
 </script>
 
 <template>

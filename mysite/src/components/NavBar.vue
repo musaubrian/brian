@@ -8,10 +8,10 @@
                 <RouterLink to="/about" class="_link">About</RouterLink>
             </li>
             <li>
-                <RouterLink to="#" class="_link">Work</RouterLink>
+                <RouterLink to="/projects" class="_link">Work</RouterLink>
             </li>
             <li>
-                <RouterLink to="/#contact" class="_link">Contact</RouterLink>
+                <RouterLink to="/contact" class="_link">Contact</RouterLink>
             </li>
         </ul>
     </nav>
