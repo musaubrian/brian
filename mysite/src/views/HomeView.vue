@@ -11,7 +11,7 @@ import FooterSection from '../components/FooterSection.vue';
 <template>
   <main>
     <HomePage />
-    <ProjectsSection/>
+    <ProjectsSection id="section"/>
     <ContactSection/>
     <FooterSection/>
   </main>
@@ -21,4 +21,7 @@ import FooterSection from '../components/FooterSection.vue';
   main {
     height: 100%;
   }
+#section {
+scroll-behaviour: smooth;
+}
 </style>
