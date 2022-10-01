@@ -1,9 +1,9 @@
-<script>
+<script setup>
   import HomePage from '../components/HomePage.vue';
   import ProjectsSection from '../components/ProjectsSection.vue';
-import ContactSection from '../components/contactSection.vue';
-import FooterSection from '../components/FooterSection.vue';
-import AboutSection from '../components/AboutSection.vue';
+  import ContactSection from '../components/contactSection.vue';
+  import FooterSection from '../components/FooterSection.vue';
+  import AboutSection from '../components/AboutSection.vue';
   export default {
     components: { HomePage, ProjectsSection, ContactSection, FooterSection, AboutSection }
   }
@@ -29,7 +29,7 @@ import AboutSection from '../components/AboutSection.vue';
 
 <style>
   main {
-    height: 100%;
+    height: 90%;
   }
   .mobile-view {
     display: none;

@@ -8,20 +8,20 @@
                 <RouterLink to="/about" class="_link">About</RouterLink>
             </li>
             <li>
-                <RouterLink to="/projects" class="_link">Work</RouterLink>
+                <RouterLink to="#" class="_link">Work</RouterLink>
             </li>
             <li>
-                <RouterLink to="/contact" class="_link">Contact</RouterLink>
+                <RouterLink to="/#contact" class="_link">Contact</RouterLink>
             </li>
         </ul>
     </nav>
 </template>
 
-<script>
+<script setup>
     import { RouterLink } from 'vue-router';
-    export default {
-        components: {RouterLink}
-    }
+    // export default {
+    //     components: {RouterLink}
+    // }
 </script>
 
 <style scoped>
@@ -38,7 +38,6 @@
         align-content: center;
         padding: 0.5rem;
         background-color: transparent;
-        position: static;
     }
     ul {
         list-style: none;
@@ -65,10 +64,11 @@
         transition: 400ms;
         color: var(--color-text-white-mute);
     }
-    @media screen and (max-width: 550px) {
-        .navbar{
-            display: none;
+        @media screen and (max-width: 550px) {
+            .navbar{
+                display: none;
+                visibility: hidden;
+            }
         }
-    }
 </style>
 
