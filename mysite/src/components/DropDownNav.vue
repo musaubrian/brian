@@ -55,7 +55,7 @@
             display: flex;
             flex-direction: row;
             flex-wrap: nowrap;
-            justify-content: center;
+            justify-content: space-around;
             align-items: center;
             border-bottom: 2px outset var(--color-text-black);
             width: 100%;
@@ -65,7 +65,7 @@
             width: 40%;
             height: 100%;
             display: flex;
-            justify-content: center;
+            justify-content: flex-start;
             align-items: center;
         }
         .logo img {
@@ -74,11 +74,9 @@
         }
         .dropdown-init{
             width: 50%;
-            margin: auto;
             display: flex;
             justify-content: flex-end;
             align-content: center;
-            padding: 0.5rem;
         }
         .dropdown-menu{
             width: 100%;
