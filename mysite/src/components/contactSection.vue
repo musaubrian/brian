@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="form-box">
         <h1>I would like to hear from you : )</h1>
         <div class="form-container">
             <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="true">
@@ -102,6 +102,9 @@
     }
 
     @media screen and (max-width: 790px){
+        .form-box {
+            height: auto;
+        }
         h1 {
             visibility: visible;
             text-align: center;

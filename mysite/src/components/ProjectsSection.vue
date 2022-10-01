@@ -5,7 +5,10 @@
 </template>
 
 <style>
-.projects-container{
-	margin: 2rem;
-}
+    @media screen and (max-width: 550px) {
+        section {
+            height: 100%;
+        }
+    }
+
 </style>

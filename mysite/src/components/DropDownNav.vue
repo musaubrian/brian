@@ -15,16 +15,16 @@
         <div class="dropdown-menu" v-if="isOpen">
             <ul>
                 <li>
-                    <RouterLink to="/" class="mobile-links">Home</RouterLink>
+                    <a href="/" class="mobile-links">Home</a>
                 </li>
                 <li>
-                    <a href="/projects" class="mobile-links">Projects</a>
+                    <a href="#projects" class="mobile-links">Projects</a>               
                 </li>
                 <li>
-                    <RouterLink to="/about" class="mobile-links">About me</RouterLink>
+                    <a href="#about-me" class="mobile-links">About me</a>               
                 </li>
                 <li>
-                    <a href="/contact" class="mobile-links">Reach me</a>
+                    <a href="#contact" class="mobile-links">Reach me</a>               
                 </li>
             </ul>
         </div>
