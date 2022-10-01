@@ -1,5 +1,5 @@
 <template>
-    <section id="contact">
+    <div>
         <h1>I would like to hear from you : )</h1>
         <div class="form-container">
             <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="true">
@@ -23,7 +23,7 @@
 
             </form>
         </div>
-    </section>
+    </div>
 </template>
 
 <style scoped>

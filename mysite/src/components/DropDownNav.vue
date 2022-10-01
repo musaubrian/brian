@@ -18,13 +18,13 @@
                     <RouterLink to="/" class="mobile-links">Home</RouterLink>
                 </li>
                 <li>
-                    <RouterLink to="/projects" class="mobile-links">Projects</RouterLink>
+                    <a href="/projects" class="mobile-links">Projects</a>
                 </li>
                 <li>
                     <RouterLink to="/about" class="mobile-links">About me</RouterLink>
                 </li>
                 <li>
-                    <RouterLink to="/contact" class="mobile-links">Reach me</RouterLink>
+                    <a href="/contact" class="mobile-links">Reach me</a>
                 </li>
             </ul>
         </div>
