@@ -7,10 +7,15 @@
 
 <template>
     <div v-auto-animate class="dropdown-nav" @click="isOpen = !isOpen">
-        <div class="dropdown-init">
-            <RouterLink to="#" class="mobile-links">
-                <img src="../assets/menu.svg" alt="menu-icon right">
-            </RouterLink>
+        <div class="header">
+            <div class="logo">
+                <img src="../assets/Artboard.png" alt="">
+            </div>
+            <div class="dropdown-init">
+                <RouterLink to="#" class="mobile-links">
+                    <img src="../assets/menu.svg" alt="menu-icon right">
+                </RouterLink>
+            </div>
         </div>
         <div class="dropdown-menu" v-if="isOpen">
             <ul>
@@ -44,17 +49,36 @@
             margin: auto;
             flex-direction: column;
             justify-content: center;
-            align-content: center;
-           
+            align-content: center;         
+        }
+        .header {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 2px outset var(--color-text-black);
+            width: 100%;
+            height: 30%;
+        }
+        .logo {
+            width: 40%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo img {
+            width: 100%;
+            height: 100%;
         }
         .dropdown-init{
-            width: 100%;
+            width: 50%;
             margin: auto;
             display: flex;
             justify-content: flex-end;
             align-content: center;
             padding: 0.5rem;
-            border-bottom: 2px outset var(--color-text-black);
         }
         .dropdown-menu{
             width: 100%;
@@ -77,7 +101,7 @@
         .mobile-links{
             color: var(--color-text-black);
             text-decoration: none;
-            font-size: 1.3rem;
+            font-size: 1.2rem;
             font-weight: 600;
         }
     }
