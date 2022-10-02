@@ -4,7 +4,7 @@
             <div class="card">
             <h1>TinyDb</h1>
             <div class="card-body">
-                <img src="../assets/person_.svg" alt="">
+                <img src="../assets/" alt="">
             </div>
             <p>
                 Created this *database for personal use
@@ -14,43 +14,37 @@
             </button>
         </div>
         <div class="card">
-            <h1>TinyDb</h1>
+            <h1>Auto-github</h1>
             <div class="card-body">
-                <img src="../assets/person_.svg" alt="">
+                <img src="../assets/" alt="">
             </div>
             <p>
-                Created this *database for personal use
+                Automate repo creation and cloning.
             </p>
-            <button>
+            <p>
+                You just set it up and you are good to go
+            </p>
+            
+            <button class="to-github">
                 See code
             </button>
         </div>
         </div>
         <div class="card-row">
             <div class="card">
-            <h1>TinyDb</h1>
-            <div class="card-body">
-                <img src="../assets/avataaars.png" alt="">
+                <h1>Magaoni School</h1>
+                <div class="card-body">
+                    <img src="../assets/" alt="">
+                </div>
+                <p>
+                    School website with an admin section
+                    for uploading files.
+                    <span><b>(WIP)</b></span>
+                </p>
+                <button class="to-github">
+                    See code
+                </button>
             </div>
-            <p>
-                Created this *database for personal use
-            </p>
-            <button>
-                See code
-            </button>
-        </div>
-        <div class="card">
-            <h1>TinyDb</h1>
-            <div class="card-body">
-                <img src="../assets/person_.svg" alt="">
-            </div>
-            <p>
-                Created this *database for personal use
-            </p>
-            <button>
-                See code
-            </button>
-        </div>
         </div>
     </div>
 </template>
@@ -97,11 +91,25 @@
         height: 100%;
     }
     .card:hover {
-        transform: translate(3deg);
+        transform: rotate(3deg);
         transition: 600ms ease;
-        background-color: var(--color-background-black);
+    }
+    .to-github {
+        display: flex;
+        padding: 0.8rem;
         border: none;
-        color: var(--color-text-white);
+        background-color: #50ad28;
+        border-radius: 15px;
+        margin: 1rem auto;
+        text-decoration: none;
+        font-size: 1.1rem;
+        font-weight: 650;
+        transition: 500ms ease;
+    }
+    .to-github:hover {
+        background-color: transparent;
+        border: 3px solid #50ad28;
+        transition: 500ms ease;
     }
     @media screen and (max-width: 550px) {
         section {

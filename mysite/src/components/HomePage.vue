@@ -6,9 +6,12 @@
         <div class="welcome">
             <h1> I'm Ernest </h1>
             <p> Software Engineer & tech writer </p>
-            <RouterLink to="/about" class="mobile-button">
+            <RouterLink to="/about" class="mobile-button-large">
                 About me
             </RouterLink>
+            <a href="#about-me" class="mobile-button-small">
+                About me
+            </a>
         </div>
         <div class="socials">
             <RouterLink to="/twitter" class="social-icons">
@@ -95,12 +98,31 @@
         color: var(--color-text-white-mute);
         transition: 500ms;
     }
-    .mobile-button {
+    .mobile-button-small {
         display: none;
-        visibility: hidden;
+    }
+    .mobile-button-large{
+        display: flex;
+        padding: 1rem;
+        border: 3px solid var(--color-text-black);
+        border-radius: 15px;
+        margin: 1rem auto;
+        text-decoration: none;
+        color: var(--color-text-black);
+        font-size: 1.2rem;
+        font-weight: 650;
+        transition: 300ms;
+    }
+    .mobile-button-large:hover {
+        background-color: var(--color-text-black);
+        color: var(--color-text-white);
+        transition: 300ms ease;
     }
 
     @media screen and (max-width: 580px) {
+        .mobile-button-large {
+            display: none;
+        }
         .image-container{
             height: 100%;
             width: 100%;
@@ -115,8 +137,7 @@
         .welcome p {
             font-size: 1.3rem;
         }
-        .mobile-button {
-            visibility: visible;
+        .mobile-button-small{
             display: flex;
             padding: 1rem;
             border: 3px solid var(--color-text-black);
@@ -128,8 +149,7 @@
             font-weight: 650;
             transition: 300ms;
         }
-        .mobile-button:hover,
-        .mobile-button:active {
+        .mobile-button-small:hover {
             background-color: var(--color-text-black);
             color: var(--color-text-white);
             transition: 300ms;
