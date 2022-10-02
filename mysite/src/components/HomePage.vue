@@ -1,7 +1,7 @@
 <template>
-    <div class="hompeage">
+    <div class="homepage">
         <div class="image-container">
-            <img src="../assets/pikachugif.gif" alt="pikachu waving" class="pika">
+            <img src="../assets/avataaars.png" class="pika">
         </div>
         <div class="welcome">
             <h1> I'm Ernest </h1>
@@ -27,8 +27,8 @@
 <style scoped>
     .homepage {
         display: flex;
-        width: 100vh;
-        height: 100%;
+        width: 100%;
+        height: 90%;
         justify-content: center;
         align-content: center;
         flex-direction: column;
@@ -38,15 +38,15 @@
         display: flex;
         justify-content: center;
         align-content: center;
-        height: 50%;
-        width: 100%;
+        height: 30%;
+        width: 30%;
+        margin: auto;
         padding: 1rem;
     }
     .image-container img {
-        width: 20%;
-        height: 20%;
+        width: 100%;
+        height: 100%;
         padding: 1rem;
-        border-radius: 50%;
     }
     .welcome {
         display: flex;
@@ -71,7 +71,7 @@
     }
     .social-icons{
         padding: 1rem;
-        font-size: 2rem;
+        font-size: 2.3rem;
         color: var(--color-text-black);
         transition: 500ms;
     }
@@ -101,8 +101,13 @@
     }
 
     @media screen and (max-width: 580px) {
+        .image-container{
+            height: 100%;
+            width: 100%;
+        }
         .image-container img {
             width: 50%;
+            height: 100%;
         }
         h1 {
             font-size: 3rem;

@@ -1,7 +1,7 @@
 <template>
     <div class="about">
         <div class="about-image">
-            <img src="../assets/person_.svg" alt="">
+            <img src="../assets/avataaars.png" alt="">
         </div>
         <div class="about-me">
             <p>
@@ -104,8 +104,7 @@
       flex-direction: column;
       }
       .about-image {
-      width: 100%;
-      padding: 1rem;
+      display: none;
       }
       .about-me {
       width: 100%;
