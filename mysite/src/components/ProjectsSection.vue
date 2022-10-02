@@ -4,7 +4,7 @@
             <div class="card">
             <h1>TinyDb</h1>
             <div class="card-body">
-                <img src="../assets/" alt="">
+                <img src="../assets/rndom.png" alt="">
             </div>
             <p>
                 Created this *database for personal use
@@ -16,7 +16,7 @@
         <div class="card">
             <h1>Auto-github</h1>
             <div class="card-body">
-                <img src="../assets/" alt="">
+                <img src="../assets/random.png" alt="">
             </div>
             <p>
                 Automate repo creation and cloning.
@@ -34,7 +34,7 @@
             <div class="card">
                 <h1>Magaoni School</h1>
                 <div class="card-body">
-                    <img src="../assets/" alt="">
+                    <img src="../assets/random.png" alt="">
                 </div>
                 <p>
                     School website with an admin section
