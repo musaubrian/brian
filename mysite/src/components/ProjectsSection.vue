@@ -4,7 +4,7 @@
             <div class="card">
             <h1>TinyDb</h1>
             <div class="card-body">
-                <img src="../assets/rndom.png" alt="">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.h_V1zKtuAmKY36k8iyLELQHaCO%26pid%3DApi&f=1&ipt=45efc67a84141e01ffa95f5430d92af169db4ec1bd94b5780e5ffcfceaded785&ipo=images" alt="">
             </div>
             <p>
                 Created this *database for personal use
@@ -16,7 +16,7 @@
         <div class="card">
             <h1>Auto-github</h1>
             <div class="card-body">
-                <img src="../assets/random.png" alt="">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.h_V1zKtuAmKY36k8iyLELQHaCO%26pid%3DApi&f=1&ipt=45efc67a84141e01ffa95f5430d92af169db4ec1bd94b5780e5ffcfceaded785&ipo=images" alt="">
             </div>
             <p>
                 Automate repo creation and cloning.
@@ -34,7 +34,7 @@
             <div class="card">
                 <h1>Magaoni School</h1>
                 <div class="card-body">
-                    <img src="../assets/random.png" alt="">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.h_V1zKtuAmKY36k8iyLELQHaCO%26pid%3DApi&f=1&ipt=45efc67a84141e01ffa95f5430d92af169db4ec1bd94b5780e5ffcfceaded785&ipo=images" alt="">
                 </div>
                 <p>
                     School website with an admin section
