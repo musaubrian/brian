@@ -31,7 +31,7 @@
     .homepage {
         display: flex;
         width: 100%;
-        height: 90%;
+        height: 100%;
         justify-content: center;
         align-content: center;
         flex-direction: column;
