@@ -106,7 +106,7 @@
             height: auto;
         }
         h1 {
-            visibility: visible;
+            display: block;
             text-align: center;
             margin-top: 1rem;
             padding: 1rem;
