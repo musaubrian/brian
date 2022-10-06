@@ -6,9 +6,9 @@
     useMotion(targetEl, {
         initial: {
             opacity: 0,
-            x: 150
+            x: -150
         },
-        visibleOnce: {
+        visible: {
             opacity: 1,
             x: 0,
             transition: {

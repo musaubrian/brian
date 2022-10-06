@@ -2,15 +2,29 @@
     import { useMotion } from '@vueuse/motion';
     import { ref } from 'vue';
 
-    const target = ref()
+    const targetCard = ref()
 
-    
+    useMotion(targetCard, {
+        initial: {
+            opacity: 0,
+            y: 200
+        },
+        visible: {
+            opacity: 1,
+            y: 0,
+            transition: {
+                delay: 200,
+                duration: 700
+            }
+        }
+    });
+   
 </script>
 
 <template>
-    <div class="projects-container">
+    <div class="projects-container" ref="targetCard">
         <div class="card-row">
-            <div class="card" ref="target">
+            <div class="card">
             <h1>TinyDb</h1>
             <div class="card-body">
                 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.h_V1zKtuAmKY36k8iyLELQHaCO%26pid%3DApi&f=1&ipt=45efc67a84141e01ffa95f5430d92af169db4ec1bd94b5780e5ffcfceaded785&ipo=images" alt="">
@@ -22,7 +36,7 @@
                 See code
             </button>
         </div>
-        <div class="card" ref="target">
+        <div class="card" ref="targetLastCard">
             <h1>Auto-github</h1>
             <div class="card-body">
                 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.h_V1zKtuAmKY36k8iyLELQHaCO%26pid%3DApi&f=1&ipt=45efc67a84141e01ffa95f5430d92af169db4ec1bd94b5780e5ffcfceaded785&ipo=images" alt="">
@@ -40,7 +54,7 @@
         </div>
         </div>
         <div class="card-row">
-            <div class="card" ref="target">
+            <div class="card">
                 <h1>Magaoni School</h1>
                 <div class="card-body">
                     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.h_V1zKtuAmKY36k8iyLELQHaCO%26pid%3DApi&f=1&ipt=45efc67a84141e01ffa95f5430d92af169db4ec1bd94b5780e5ffcfceaded785&ipo=images" alt="">
@@ -79,6 +93,7 @@
         margin-bottom: 1rem;
     }
     .card {
+        margin-bottom: 1rem;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -101,6 +116,7 @@
     }
     .card:hover {
         transform: rotate(3deg);
+        transform: scale(1.09);
         transition: 600ms ease;
     }
     .to-github {
@@ -131,10 +147,13 @@
         }
         .card-row {
             flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
         }
         .card {
             width: 90%;
-            margin-bottom: 1rem;
+            margin-bottom: 2rem;
         }
     }
 
