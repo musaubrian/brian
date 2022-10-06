@@ -1,16 +1,30 @@
 <template>
-    <Footer>
-        <div>
-            <h1>Some content</h1>
+    <footer>
+        <div class="footer-container">
+            <span>
+                <RouterLink to="/github">©️2022 musuabrian</RouterLink>
+            </span>
         </div>
         
-    </Footer>
+    </footer>
 </template>
 
-<style>
-    Footer {
+<style scoped>
+    footer {
         width: 100%;
         height: auto;
-        background-color: #585555;
+        background-color: #b4aeae;
+    }
+    .footer-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    span,
+    a{
+        font-size: small;
+        padding: 0.5rem;
+        color: var(--color-text-black);
+        text-decoration: none;
     }
 </style>
