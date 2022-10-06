@@ -31,7 +31,7 @@
 
 
     h1 {
-        visibility: hidden;
+        display: none;
     }
     .form-container {
         display: flex;
@@ -90,7 +90,7 @@
         margin: 1rem auto;
         text-decoration: none;
         background-color: var(--color-text-black);
-        color: var(--color-text-white-soft);
+        color: var(--color-text-white);
         font-size: 1.2rem;
         font-weight: 650;
         transition: 300ms;
@@ -106,7 +106,7 @@
             height: auto;
         }
         h1 {
-            visibility: visible;
+            display: block;
             text-align: center;
             margin-top: 1rem;
             padding: 1rem;

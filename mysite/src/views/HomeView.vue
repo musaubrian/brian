@@ -26,7 +26,7 @@
 
 <style>
   main {
-    height: 90%;
+    height: 100%;
   }
   .mobile-view {
     display: none;
