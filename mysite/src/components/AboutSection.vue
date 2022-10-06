@@ -103,9 +103,10 @@
     align-items: center;
     width: 100%;
   }
-  .button {
+  .button,
+  .mobile-btn {
       width: 50%;
-      padding: 0.9rem;
+      padding: 0.7rem;
       border: none;
       font-size: 1.3rem;
       font-weight: 650;
@@ -119,7 +120,8 @@
       transition: 400ms;
   }
   
-  .button:hover {
+  .button:hover,
+  .mobile-btn:hover {
       background-color: var(--color-background-black);
       color: var(--color-text-white-soft);
       transition: 400ms;
@@ -163,28 +165,6 @@
         flex-wrap: nowrap;
         justify-content: center;
         align-items: center;
-      }
-      .mobile-btn {
-        width: 80%;
-      padding: 0.9rem;
-      margin-bottom: 1rem;
-      border: none;
-      font-size: 1.3rem;
-      font-weight: 650;
-      border-radius: 20px;
-      border: 3px solid var(--color-text-black);
-      background-color: transparent;
-      text-decoration: none;
-      color: var(--color-text-black);
-      display: flex;
-      justify-content: center; 
-      align-items: center;
-      transition: 400ms;
-      }
-      .mobile-btn:hover {
-        background-color: var(--color-background-black);
-      color: var(--color-text-white-soft);
-      transition: 400ms;
       }
       .mb-sp {
         font-weight: 600;
