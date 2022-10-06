@@ -13,6 +13,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/vue-fontawesome": "^3.0.1",
     "@vueuse/core": "^9.3.0",
+    "@vueuse/motion": "^2.0.0-beta.12",
     "prerender-node": "^3.5.0",
     "vue": "^3.2.36",
     "vue-router": "^4.0.15",

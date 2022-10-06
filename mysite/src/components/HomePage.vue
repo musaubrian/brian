@@ -47,8 +47,8 @@
         padding: 1rem;
     }
     .image-container img {
-        width: 100%;
-        height: 100%;
+        width: 50%;
+        height: 50%;
         padding: 1rem;
     }
     .welcome {

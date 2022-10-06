@@ -1,5 +1,26 @@
+<script setup>
+    import { ref } from 'vue';
+    import { useMotion } from '@vueuse/motion';
+
+    const targetEl = ref();
+    useMotion(targetEl, {
+        initial: {
+            opacity: 0,
+            x: 150
+        },
+        visibleOnce: {
+            opacity: 1,
+            x: 0,
+            transition: {
+                duration: 1000,             
+            }
+        }
+    })
+
+</script>
+
 <template>
-    <div class="about">
+    <div class="about" ref="targetEl">
         <div class="about-image">
             <img src="../assets/avataaars.png" alt="">
         </div>
