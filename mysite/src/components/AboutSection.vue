@@ -107,7 +107,6 @@
   .mobile-btn {
       width: 50%;
       padding: 1rem;
-      border: none;
       font-size: 1.3rem;
       font-weight: 650;
       border-radius: 20px;
@@ -125,9 +124,11 @@
   
   .button:hover,
   .mobile-btn:hover {
-      background-color: var(--color-background-black);
-      color: var(--color-text-white-soft);
-      transition: 400ms;
+    border: none;
+    transform: scale(1.09);
+    background-color: var(--color-background-black);
+    color: var(--color-text-white-soft);
+    transition: 400ms;
   }
   .mobile-btn-container {
     display: none;
