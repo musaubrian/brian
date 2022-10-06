@@ -41,14 +41,14 @@
         display: flex;
         justify-content: center;
         align-content: center;
-        height: 30%;
-        width: 30%;
+        height: 20%;
+        width: 20%;
         margin: auto;
         padding: 1rem;
     }
     .image-container img {
-        width: 50%;
-        height: 50%;
+        width: 90%;
+        height: 90%;
         padding: 1rem;
     }
     .welcome {
