@@ -1,7 +1,16 @@
+<script setup>
+    import { useMotion } from '@vueuse/motion';
+    import { ref } from 'vue';
+
+    const target = ref()
+
+    
+</script>
+
 <template>
     <div class="projects-container">
         <div class="card-row">
-            <div class="card">
+            <div class="card" ref="target">
             <h1>TinyDb</h1>
             <div class="card-body">
                 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.h_V1zKtuAmKY36k8iyLELQHaCO%26pid%3DApi&f=1&ipt=45efc67a84141e01ffa95f5430d92af169db4ec1bd94b5780e5ffcfceaded785&ipo=images" alt="">
@@ -13,7 +22,7 @@
                 See code
             </button>
         </div>
-        <div class="card">
+        <div class="card" ref="target">
             <h1>Auto-github</h1>
             <div class="card-body">
                 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.h_V1zKtuAmKY36k8iyLELQHaCO%26pid%3DApi&f=1&ipt=45efc67a84141e01ffa95f5430d92af169db4ec1bd94b5780e5ffcfceaded785&ipo=images" alt="">
@@ -31,7 +40,7 @@
         </div>
         </div>
         <div class="card-row">
-            <div class="card">
+            <div class="card" ref="target">
                 <h1>Magaoni School</h1>
                 <div class="card-body">
                     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.h_V1zKtuAmKY36k8iyLELQHaCO%26pid%3DApi&f=1&ipt=45efc67a84141e01ffa95f5430d92af169db4ec1bd94b5780e5ffcfceaded785&ipo=images" alt="">

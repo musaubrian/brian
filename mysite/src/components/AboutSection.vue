@@ -27,7 +27,7 @@
         </div>
         <div class="about-me">
             <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, nihil inventore placeat suscipit aspernatur ad a debitis maxime magnam, aliquam obcaecati illum vitae ex reiciendis explicabo libero quasi fugiat eum.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, tempora. Fugiat sapiente sequi quis culpa, corporis repellat libero quam fugit similique, consequuntur quod ex nesciunt sed, nihil necessitatibus quidem distinctio qui tempore esse laboriosam atque nostrum! Facere nemo hic est blanditiis obcaecati dolor impedit exercitationem, tenetur voluptatibus molestiae minima maiores.
             </p>
             <hr/>
             <div class="large-view-btn">
@@ -69,9 +69,10 @@
       width: 50%;
       padding: 1rem;
       display: flex;
+      margin: auto;
       flex-direction: column;
       align-items: center;
-      justify-content: space-around;
+      justify-content: safe;
   }
   .about-image {
       width: 50%;
