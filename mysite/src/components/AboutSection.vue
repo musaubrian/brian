@@ -27,13 +27,11 @@
         </div>
         <div class="about-me">
             <p>
-                Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Omnis, tempora. Fugiat
-                sapiente sequi quis culpa, corporis 
-                repellat libero quam fugit similique, 
-                consequuntur quod ex nesciunt sed, nihil 
-                necessitatibus quidem distinctio qui tempore esse 
-                laboriosam atque nostrum! Facere nemo hic est
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Omnis, tempora. Fugiat sapiente sequi quis culpa, corporis 
+                repellat libero quam fugit similique, consequuntur quod ex
+                nesciunt sed, nihil necessitatibus quidem distinctio qui
+                tempore esse laboriosam atque nostrum! Facere nemo hic est
                 blanditiis obcaecati dolor impedit exercitationem, 
                 tenetur voluptatibus molestiae minima maiores.
             </p>
@@ -143,6 +141,7 @@
       }
       .about-me p {
         padding: 0;
+        font-size: 1.2rem;
       }
       .large-view-btn {
         display: none;

@@ -149,7 +149,6 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            margin: auto;
         }
         .card {
             width: 90%;
