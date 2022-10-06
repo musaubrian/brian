@@ -106,17 +106,18 @@
   .button,
   .mobile-btn {
       width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       padding: 1rem;
-      font-size: 1.3rem;
-      font-weight: 650;
-      border-radius: 20px;
       border: 3px solid var(--color-text-black);
-      background-color: transparent;
+      border-radius: 15px;
+      margin: 1rem auto;
       text-decoration: none;
       color: var(--color-text-black);
-      display: flex;
-      justify-content: center; 
-      transition: 400ms;
+      font-size: 1.2rem;
+      font-weight: 650;
+      transition: 300ms;
   }
   .mobile-btn {
     width: 85%;
@@ -124,9 +125,9 @@
   
   .button:hover,
   .mobile-btn:hover {
-    border: none;
-    transform: scale(1.09);
-    background-color: var(--color-background-black);
+    /* border: none;
+    transform: scale(1.09); */
+    background-color: var(--color-text-black);
     color: var(--color-text-white-soft);
     transition: 400ms;
   }
