@@ -11,9 +11,6 @@
     Footer {
         width: 100%;
         height: auto;
-        background-color: #181818;
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
-        color: #fdfdfd;
+        background-color: #585555;
     }
 </style>

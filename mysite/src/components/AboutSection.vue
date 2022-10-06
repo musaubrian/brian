@@ -106,7 +106,7 @@
   .button,
   .mobile-btn {
       width: 50%;
-      padding: 0.7rem;
+      padding: 1rem;
       border: none;
       font-size: 1.3rem;
       font-weight: 650;
@@ -118,6 +118,9 @@
       display: flex;
       justify-content: center; 
       transition: 400ms;
+  }
+  .mobile-btn {
+    width: 85%;
   }
   
   .button:hover,
