@@ -6,7 +6,7 @@
 </script>
 
 <template>
-    <div v-auto-animate class="dropdown-nav" @click="isOpen = !isOpen">
+    <nav v-auto-animate class="dropdown-nav" @click="isOpen = !isOpen">
         <div class="header">
             <div class="logo">
                 <img src="../assets/Artboard.png" alt="">
@@ -33,7 +33,7 @@
                 </li>
             </ul>
         </div>
-    </div>
+    </nav>
 
 </template>
 
