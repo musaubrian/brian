@@ -44,7 +44,7 @@
             <div class="mobile-btn-container">
                 <div class="mail">
                     <span class="mb-sp">Email me:</span>
-                    <a href="mailto: musuabrian45@gmail.com" class="mobile-btn"> 
+                    <a href="mailto: musaubrian45@gmail.com" class="mobile-btn"> 
                         <font-awesome-icon icon="fa-envelope" />
                     </a>
                 </div>
