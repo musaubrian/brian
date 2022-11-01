@@ -32,9 +32,9 @@
             <p>
                 Created this *database for personal use
             </p>
-            <button class="to-github">
-                See code
-            </button>
+            <a href="https://github.com/musaubrian/myTinyDB" target="_blank" class="to-github">
+                see code
+            </a>
         </div>
         <div class="card" ref="targetLastCard">
             <h1>Auto-github</h1>
@@ -48,9 +48,9 @@
                 You just set it up and you are good to go
             </p>
             
-            <button class="to-github">
-                See code
-            </button>
+            <a href="https://github.com/musaubrian/auto-github" target="_blank" class="to-github">
+                see code
+            </a>
         </div>
         </div>
         <div class="card-row">
@@ -64,11 +64,10 @@
                     for uploading files.
                     <span><b>(WIP)</b></span>
                 </p>
-                <button class="to-github">
-                    See code
-                </button>
+                <a href="https://github.com/musaubrian/magaonischool-v2" class="to-github"> see code</a>
             </div>
         </div>
+        
     </div>
 </template>
 
@@ -121,7 +120,7 @@
     }
     .to-github {
         display: flex;
-        padding: 0.8rem;
+        padding: 0.9rem;
         border: none;
         background-color: #50ad28;
         border-radius: 15px;
@@ -130,6 +129,7 @@
         font-size: 1.1rem;
         font-weight: 650;
         transition: 500ms ease;
+        color: var(--color-text-black);
     }
     .to-github:hover {
         background-color: transparent;
