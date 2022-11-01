@@ -35,8 +35,7 @@
         justify-content: center;
         align-content: center;
         flex-direction: column;
-        margin-top: 1rem;
-    }
+}
     .image-container {
         display: flex;
         justify-content: center;
