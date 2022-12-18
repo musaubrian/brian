@@ -1,159 +1,51 @@
 <script setup>
-    import { useMotion } from '@vueuse/motion';
-    import { ref } from 'vue';
+import { useMotion } from '@vueuse/motion';
+import { ref } from 'vue';
 
-    const targetCard = ref()
+const targetCard = ref()
 
-    useMotion(targetCard, {
-        initial: {
-            opacity: 0,
-            y: 200
-        },
-        visible: {
-            opacity: 1,
-            y: 0,
-            transition: {
-                delay: 200,
-                duration: 700
-            }
+useMotion(targetCard, {
+    initial: {
+        opacity: 0,
+        y: 200
+    },
+    visible: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            delay: 200,
+            duration: 700
         }
-    });
-   
+    }
+});
+
 </script>
 
 <template>
-    <div class="projects-container" ref="targetCard">
-        <div class="card-row">
-            <div class="card">
-            <h1>TinyDb</h1>
-            <div class="card-body">
-                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.h_V1zKtuAmKY36k8iyLELQHaCO%26pid%3DApi&f=1&ipt=45efc67a84141e01ffa95f5430d92af169db4ec1bd94b5780e5ffcfceaded785&ipo=images" alt="">
-            </div>
-            <p>
-                Created this *database for personal use
-            </p>
-            <a href="https://github.com/musaubrian/myTinyDB" target="_blank" class="to-github">
-                see code
-            </a>
-        </div>
-        <div class="card" ref="targetLastCard">
-            <h1>Auto-github</h1>
-            <div class="card-body">
-                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.h_V1zKtuAmKY36k8iyLELQHaCO%26pid%3DApi&f=1&ipt=45efc67a84141e01ffa95f5430d92af169db4ec1bd94b5780e5ffcfceaded785&ipo=images" alt="">
-            </div>
-            <p>
-                Automate repo creation and cloning.
-            </p>
-            <p>
-                You just set it up and you are good to go
-            </p>
-            
-            <a href="https://github.com/musaubrian/auto-github" target="_blank" class="to-github">
-                see code
-            </a>
-        </div>
-        </div>
-        <div class="card-row">
-            <div class="card">
-                <h1>Magaoni School</h1>
-                <div class="card-body">
-                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.h_V1zKtuAmKY36k8iyLELQHaCO%26pid%3DApi&f=1&ipt=45efc67a84141e01ffa95f5430d92af169db4ec1bd94b5780e5ffcfceaded785&ipo=images" alt="">
+    <div class="my-4 h-auto" ref="targetCard">
+        <div class="grid grid-cols-1 md:grid-cols-3 md:gap-4 w-full px-2 capitalize">
+            <div class="col-span-1 w-full h-auto bg-slate-400 p-4 flex flex-col items-center rounded-lg">
+                <div class="w-full inline-flex items-center justify-center object-cover overflow-hidden mt-1">
+                    <img src="../assets/avataaars.png" class="w-3/6" alt="">
                 </div>
-                <p>
-                    School website with an admin section
-                    for uploading files.
-                    <span><b>(WIP)</b></span>
+                <h1 class="text-2xl font-semibold text-center">quickbytes</h1>
+                <p class="text-center text-md my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+                    perspiciatis!
                 </p>
-                <a href="https://github.com/musaubrian/magaonischool-v2" class="to-github"> see code</a>
+                <div class="inline-flex items-center justify-evenly w-full">
+                    <a href="https://github.com/musaubrian/quick-bytes" target="_blank"
+                        class="bg-green-600 p-3 text-gray-100 font-semibold rounded-md">source</a>
+                    <a href="https://quickbyts.netlify.app" target="_blank" class="bg-blue-500 p-3 rounded-md">live
+                        site</a>
+
+                </div>
+            </div>
+            <div class="col-span-1 w-full">
+                <h1>project</h1>
+            </div>
+            <div class="col-span-1 w-full">
+                <h1>project</h1>
             </div>
         </div>
-        
     </div>
 </template>
-
-<style>
-    .projects-container {
-        margin-top: 1rem;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        padding: 1rem;
-    }
-    .card-row {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        width: 100%;
-        justify-content: space-evenly;
-        align-items: center;
-        margin-bottom: 1rem;
-    }
-    .card {
-        margin-bottom: 1rem;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-        width: 40%;
-        background-color: transparent;
-        border: 2px solid var(--color-background-black);
-        border-radius: 20px;
-        padding: 1rem;
-        color: var(--color-text-black);
-        transition: 600ms;
-    }
-    .card-body {
-        width: 60%;
-    }
-    .card-body img {
-        width: 100%;
-        height: 100%;
-    }
-    .card:hover {
-        transform: rotate(3deg);
-        transform: scale(1.09);
-        transition: 600ms ease;
-    }
-    .to-github {
-        display: flex;
-        padding: 0.9rem;
-        border: none;
-        background-color: #50ad28;
-        border-radius: 15px;
-        margin: 1rem auto;
-        text-decoration: none;
-        font-size: 1.1rem;
-        font-weight: 650;
-        transition: 500ms ease;
-        color: var(--color-text-black);
-    }
-    .to-github:hover {
-        background-color: transparent;
-        border: 3px solid #50ad28;
-        transition: 500ms ease;
-    }
-    @media screen and (max-width: 550px) {
-        section {
-            height: 100%;
-        }
-        .projects-container {
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .card-row {
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .card {
-            width: 90%;
-            margin-bottom: 2rem;
-        }
-    }
-
-</style>

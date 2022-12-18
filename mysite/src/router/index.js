@@ -27,24 +27,6 @@ const router = createRouter({
       name: "contact",
       component: ContactView,
     },
-    {
-      path: "/github",
-      beforeEnter() {
-        location.href = "http://github.com/musaubrian";
-      },
-    },
-    {
-      path: "/linkedin",
-      beforeEnter() {
-        location.href = "https://www.linkedin.com/in/ernest-musau/";
-      },
-    },
-    {
-      path: "/twitter",
-      beforeEnter() {
-        location.href = "https://twitter.com/_musaubrian";
-      },
-    },
   ],
 });
 
