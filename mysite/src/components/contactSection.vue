@@ -1,6 +1,7 @@
 <template>
     <div class="form-box">
-        <h1>I would like to hear from you : )</h1>
+        <h1 class="text-xl font-bold text-gray-800 text-center">I would like to hear from you <span>: )</span></h1>
+
         <div class="form-container">
             <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="true">
                 <input type="hidden" name="form-name" value="contact" />
@@ -33,8 +34,8 @@ h1 {
     display: flex;
     justify-content: center;
     align-content: center;
-    width: 90%;
-    margin: auto;
+    width: 100%;
+    margin: 1rem auto;
     padding: 1rem;
 }
 
@@ -65,7 +66,6 @@ h1 {
     background-color: transparent;
     padding: 0.5rem;
     border-radius: 15px;
-    text-align: center;
     width: 100%;
 }
 
@@ -74,7 +74,7 @@ h1 {
 }
 
 .textarea textarea {
-    padding: 0.5rem;
+    padding: 1rem;
     border: 2px solid var(--color-text-black);
     border-radius: 15px;
     width: 100%;
@@ -112,7 +112,7 @@ button:hover {
         display: block;
         text-align: center;
         margin-top: 1rem;
-        padding: 1rem;
+        padding: 0.5rem;
     }
 
     .form-container,
