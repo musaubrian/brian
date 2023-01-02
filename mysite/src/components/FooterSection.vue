@@ -2,7 +2,7 @@
     <footer>
         <div class="footer-container">
             <span>
-                <RouterLink to="/github">©️2022 musuabrian</RouterLink>
+                <RouterLink to="/github">©️2023 musuabrian</RouterLink>
             </span>
         </div>
         
