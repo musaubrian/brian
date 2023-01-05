@@ -1,11 +1,11 @@
 <template>
     <div class="homepage">
         <div class="image-container">
-            <img src="../assets/avataaars.png" class="pika">
+            <img src="../assets/avataaars.png">
         </div>
         <div class="welcome">
-            <h1> I'm Ernest </h1>
-            <p> Software Engineer & tech writer </p>
+            <h1 class="font-semibold"> I'm Ernest </h1>
+            <p> Software Developer</p>
             <RouterLink to="/about" class="mobile-button-large">
                 About me
             </RouterLink>
@@ -57,13 +57,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
     flex-direction: column;
 }
 
 .welcome p {
-    font-size: 2rem;
-    margin: 1rem auto;
+    font-size: 1.5rem;
 }
 
 .socials {
@@ -72,7 +70,6 @@
     align-content: center;
     flex-direction: row;
     flex-wrap: nowrap;
-    border-top: 50%;
 }
 
 .social-icons {
