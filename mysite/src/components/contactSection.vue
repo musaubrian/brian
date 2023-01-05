@@ -34,7 +34,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-content: center;
-    width: 100%;
+
     margin: 1rem auto;
     width: 90%;
     margin: auto;
