@@ -2,29 +2,26 @@
     <footer>
         <div class="footer-container">
             <span>
-                <RouterLink to="/github">©️2023 musuabrian</RouterLink>
+                <a href="https://bio.link/musaubrian" target="_blank">©️2023 musuabrian</a>
             </span>
         </div>
-        
+
     </footer>
 </template>
 
 <style scoped>
-    footer {
-        width: 100%;
-        height: auto;
-        background-color: #b4aeae;
-    }
-    .footer-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    span,
-    a{
-        font-size: small;
-        padding: 0.5rem;
-        color: var(--color-text-black);
-        text-decoration: none;
-    }
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9b9a9a56;
+}
+
+span,
+a {
+    font-size: 1rem;
+    padding: 0.5rem;
+    color: var(--color-text-black);
+    text-decoration: none;
+}
 </style>

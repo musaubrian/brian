@@ -1,11 +1,11 @@
 <template>
     <div class="homepage">
         <div class="image-container">
-            <img src="../assets/avataaars.png" class="pika">
+            <img src="../assets/avataaars.png">
         </div>
         <div class="welcome">
-            <h1> I'm Ernest </h1>
-            <p> Software Engineer & tech writer </p>
+            <h1 class="font-semibold"> I'm Ernest </h1>
+            <p> Software Developer</p>
             <RouterLink to="/about" class="mobile-button-large">
                 About me
             </RouterLink>
@@ -14,93 +14,141 @@
             </a>
         </div>
         <div class="socials">
-            <RouterLink to="/twitter" class="social-icons">
+            <a href="https://twitter.com/_musaubrian" target="_blank" class="social-icons">
                 <font-awesome-icon icon="fa-brands fa-twitter" />
-            </RouterLink>
-            <RouterLink to="/linkedin" class="social-icons">
+            </a>
+            <a href="https://linkedin.com/in/ernest-musau" target="_blank" class="social-icons">
                 <font-awesome-icon icon="fa-brands fa-linkedin-in" />
-            </RouterLink>
-            <RouterLink to="/github" class="social-icons">
+            </a>
+            <a href="https://github.com/musaubrian" target="_blank" class="social-icons">
                 <font-awesome-icon icon="fa-brands fa-github-alt" />
-            </RouterLink>
+            </a>
         </div>
     </div>
 </template>
 
 <style scoped>
-    .homepage {
-        display: flex;
-        width: 100%;
-        height: 100%;
-        justify-content: center;
-        align-content: center;
-        flex-direction: column;
+.homepage {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
 }
-    .image-container {
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        height: 20%;
-        width: 20%;
-        margin: auto;
-        padding: 1rem;
-    }
-    .image-container img {
-        width: 90%;
-        height: 90%;
-        padding: 1rem;
-    }
-    .welcome {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 1rem;
-        flex-direction: column;
-    }
-    .welcome p {
-        font-size: 2rem;
-        margin: 1rem auto;
-    }
-    .socials {
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        border-top: 50%;
-        border-width: 10px;
-        padding: 1rem;
-    }
-    .social-icons{
-        padding: 1rem;
-        font-size: 2.3rem;
-        color: var(--color-text-black);
-        transition: 500ms;
-    }
-    h1 {
-        font-size: 3.5rem;
-        white-space: nowrap;
-        overflow: hidden;
-        animation: typewriter 5s;
-    }
-    @keyframes typewriter {
-        from {
-            width: 0%;            
-        }
 
-        to {
-            width: 30%;
-            background: transparent;
-        }
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 20%;
+    width: 20%;
+    margin: auto;
+    padding: 1rem;
+}
+
+.image-container img {
+    width: 90%;
+    height: 90%;
+    padding: 1rem;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.welcome p {
+    font-size: 1.5rem;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.social-icons {
+    padding: 1rem;
+    font-size: 2.3rem;
+    color: var(--color-text-black);
+    transition: 500ms;
+}
+
+h1 {
+    font-size: 3.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 5s;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0%;
     }
-    .social-icons:hover {
-        color: var(--color-text-white-mute);
-        transition: 500ms;
+
+    to {
+        width: 30%;
+        background: transparent;
     }
-    .mobile-button-small {
+}
+
+.social-icons:hover {
+    color: var(--color-text-white-mute);
+    transition: 500ms;
+}
+
+.mobile-button-small {
+    display: none;
+}
+
+.mobile-button-large {
+    display: flex;
+    padding: 1rem;
+    border: 3px solid var(--color-text-black);
+    border-radius: 15px;
+    margin: 1rem auto;
+    text-decoration: none;
+    color: var(--color-text-black);
+    font-size: 1.2rem;
+    font-weight: 650;
+    transition: 300ms;
+}
+
+.mobile-button-large:hover {
+    background-color: var(--color-text-black);
+    color: var(--color-text-white);
+    transition: 300ms ease;
+}
+
+@media screen and (max-width: 580px) {
+    .mobile-button-large {
         display: none;
     }
-    .mobile-button-large{
+
+    .image-container {
+        height: 100%;
+        width: 100%;
+    }
+
+    .image-container img {
+        width: 50%;
+        height: 100%;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .welcome p {
+        font-size: 1.3rem;
+    }
+
+    .mobile-button-small {
         display: flex;
         padding: 1rem;
         border: 3px solid var(--color-text-black);
@@ -112,57 +160,23 @@
         font-weight: 650;
         transition: 300ms;
     }
-    .mobile-button-large:hover {
+
+    .mobile-button-small:hover {
         background-color: var(--color-text-black);
         color: var(--color-text-white);
-        transition: 300ms ease;
+        transition: 300ms;
     }
 
-    @media screen and (max-width: 580px) {
-        .mobile-button-large {
-            display: none;
+    @keyframes typewriter {
+        from {
+            width: 0%;
         }
-        .image-container{
-            height: 100%;
-            width: 100%;
-        }
-        .image-container img {
-            width: 50%;
-            height: 100%;
-        }
-        h1 {
-            font-size: 3rem;
-        }
-        .welcome p {
-            font-size: 1.3rem;
-        }
-        .mobile-button-small{
-            display: flex;
-            padding: 1rem;
-            border: 3px solid var(--color-text-black);
-            border-radius: 15px;
-            margin: 1rem auto;
-            text-decoration: none;
-            color: var(--color-text-black);
-            font-size: 1.2rem;
-            font-weight: 650;
-            transition: 300ms;
-        }
-        .mobile-button-small:hover {
-            background-color: var(--color-text-black);
-            color: var(--color-text-white);
-            transition: 300ms;
-        }
-        @keyframes typewriter {
-            from {
-                width: 0%;
-            }
 
-            to {
-                width: 70%;
-                background: transparent;
-            }
+        to {
+            width: 70%;
+            background: transparent;
         }
-        
     }
+
+}
 </style>
