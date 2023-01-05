@@ -8,14 +8,7 @@ const isOpen = ref(false);
 <template>
     <nav v-auto-animate class="dropdown-nav" @click="isOpen = !isOpen">
         <div class="header">
-<<<<<<< HEAD
-            <div class="dropdown-init p-3 inline-flex justify-end w-full items-center">
-=======
-            <!-- <div class="logo">
-                <img src="../assets/Artboard.png" alt="">
-            </div> -->
-            <div class="dropdown-init">
->>>>>>> main
+            <div class="dropdown-init inline-flex w-full items-center justify-end mr-3 p-2">
                 <RouterLink to="#" class="mobile-links">
                     <img src="../assets/menu.svg" alt="menu-icon right">
                 </RouterLink>
@@ -69,29 +62,6 @@ const isOpen = ref(false);
         height: 30%;
     }
 
-<<<<<<< HEAD
-=======
-    .logo {
-        width: 40%;
-        height: 100%;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-    }
-
-    .logo img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .dropdown-init {
-        width: 50%;
-        display: flex;
-        justify-content: flex-end;
-        align-content: center;
-    }
-
->>>>>>> main
     .dropdown-menu {
         width: 100%;
         border-bottom: 2px solid var(--color-text-black);
