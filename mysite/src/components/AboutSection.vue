@@ -1,22 +1,22 @@
 <script setup>
-    import { ref } from 'vue';
-    import { useMotion } from '@vueuse/motion';
+import { ref } from 'vue';
+import { useMotion } from '@vueuse/motion';
 
-    const targetEl = ref();
-    useMotion(targetEl, {
-        initial: {
-            opacity: 0,
-            x: -150
-        },
-        visible: {
-            opacity: 1,
-            x: 0,
-            transition: {
-                duration: 1000,
-                delay: 200             
-            }
+const targetEl = ref();
+useMotion(targetEl, {
+    initial: {
+        opacity: 0,
+        x: -150
+    },
+    visible: {
+        opacity: 1,
+        x: 0,
+        transition: {
+            duration: 1000,
+            delay: 200
         }
-    })
+    }
+})
 
 </script>
 
@@ -27,15 +27,15 @@
         </div>
         <div class="about-me">
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Omnis, tempora. Fugiat sapiente sequi quis culpa, corporis 
-                repellat libero quam fugit similique, consequuntur quod ex
-                nesciunt sed, nihil necessitatibus quidem distinctio qui
-                tempore esse laboriosam atque nostrum! Facere nemo hic est
-                blanditiis obcaecati dolor impedit exercitationem, 
-                tenetur voluptatibus molestiae minima maiores.
+                Full-stack web developer. Experienced in HTML, CSS and JavaScript.
+                Mostly work with VueJs for the front end part of projects and Python and MySQL, Golang and Postgres for
+                the back end.
             </p>
-            <hr/>
+            <p>
+                Willing to learn and use any preferred frameworks
+                Open-minded and open to learning opportunities.
+            </p>
+            <hr />
             <div class="large-view-btn">
                 <RouterLink to="/contact" class="button">
                     Reach me
@@ -44,7 +44,7 @@
             <div class="mobile-btn-container">
                 <div class="mail">
                     <span class="mb-sp">Email me:</span>
-                    <a href="mailto: musaubrian45@gmail.com" class="mobile-btn"> 
+                    <a href="mailto: musaubrian45@gmail.com" class="mobile-btn">
                         <font-awesome-icon icon="fa-envelope" />
                     </a>
                 </div>
@@ -57,102 +57,112 @@
             </div>
         </div>
     </div>
-  </template>
+</template>
   
-  <style>
-  
-      @import '@/assets/base.css';
-  
-  .about {
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-      height: 100%;
-  }
-  
-  .about-me {
-      width: 50%;
-      padding: 1rem;
-      display: flex;
-      margin: auto;
-      flex-direction: column;
-      align-items: center;
-      justify-content: safe;
-  }
-  .about-image {
-      width: 50%;
-      padding: 1rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
-  .about-image img {
-      width: 80%;
-      padding: 2rem;
-  }
-  
-  .about-me p {
-      padding: 1rem;
-      font-size: 1.3rem;
-      text-align: justify;
-  }
-  .large-view-btn {
+<style>
+@import '@/assets/base.css';
+
+.about {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.about-me {
+    width: 50%;
+    padding: 1rem;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: safe;
+}
+
+.about-image {
+    width: 50%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image img {
+    width: 80%;
+    padding: 2rem;
+}
+
+.about-me p {
+    padding: 1rem;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.large-view-btn {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-  }
-  .button,
-  .mobile-btn {
-      width: 50%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 1rem;
-      border: 3px solid var(--color-text-black);
-      border-radius: 15px;
-      margin: 1rem auto;
-      text-decoration: none;
-      color: var(--color-text-black);
-      font-size: 1.2rem;
-      font-weight: 650;
-      transition: 300ms;
-  }
-  .mobile-btn {
+}
+
+.button,
+.mobile-btn {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: 3px solid var(--color-text-black);
+    border-radius: 15px;
+    margin: 1rem auto;
+    text-decoration: none;
+    color: var(--color-text-black);
+    font-size: 1.2rem;
+    font-weight: 650;
+    transition: 300ms;
+}
+
+.mobile-btn {
     width: 85%;
-  }
-  
-  .button:hover,
-  .mobile-btn:hover {
+}
+
+.button:hover,
+.mobile-btn:hover {
     /* border: none;
     transform: scale(1.09); */
     background-color: var(--color-text-black);
     color: var(--color-text-white-soft);
     transition: 400ms;
-  }
-  .mobile-btn-container {
+}
+
+.mobile-btn-container {
     display: none;
-  }
-  
-  @media screen and (max-width: 790px) {
-      .about {
-      flex-direction: column;
-      }
-      .about-image {
-      display: none;
-      }
-      .about-me {
-      width: 100%;
-      padding: none;
-      }
-      .about-me p {
+}
+
+@media screen and (max-width: 790px) {
+    .about {
+        flex-direction: column;
+    }
+
+    .about-image {
+        display: none;
+    }
+
+    .about-me {
+        width: 100%;
+        padding: none;
+    }
+
+    .about-me p {
         padding: 0;
         font-size: 1.2rem;
-      }
-      .large-view-btn {
+    }
+
+    .large-view-btn {
         display: none;
-      }
-      .mobile-btn-container {
+    }
+
+    .mobile-btn-container {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -160,20 +170,22 @@
         justify-content: center;
         align-items: center;
         padding-top: 1rem;
-      }
-      .mail,
-      .call {
+    }
+
+    .mail,
+    .call {
         display: flex;
         width: 50%;
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: center;
         align-items: center;
-      }
-      .mb-sp {
+    }
+
+    .mb-sp {
         font-weight: 600;
         font-size: 1.2rem;
         padding-bottom: 0.5rem;
-      }
-  }
-  </style>  
+    }
+}
+</style>  

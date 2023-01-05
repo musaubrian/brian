@@ -34,8 +34,13 @@ h1 {
     display: flex;
     justify-content: center;
     align-content: center;
+<<<<<<< HEAD
     width: 100%;
     margin: 1rem auto;
+=======
+    width: 90%;
+    margin: auto;
+>>>>>>> main
     padding: 1rem;
 }
 
@@ -66,6 +71,10 @@ h1 {
     background-color: transparent;
     padding: 0.5rem;
     border-radius: 15px;
+<<<<<<< HEAD
+=======
+    text-align: center;
+>>>>>>> main
     width: 100%;
 }
 
@@ -74,7 +83,11 @@ h1 {
 }
 
 .textarea textarea {
+<<<<<<< HEAD
     padding: 1rem;
+=======
+    padding: 0.5rem;
+>>>>>>> main
     border: 2px solid var(--color-text-black);
     border-radius: 15px;
     width: 100%;
@@ -112,7 +125,11 @@ button:hover {
         display: block;
         text-align: center;
         margin-top: 1rem;
+<<<<<<< HEAD
         padding: 0.5rem;
+=======
+        padding: 1rem;
+>>>>>>> main
     }
 
     .form-container,
