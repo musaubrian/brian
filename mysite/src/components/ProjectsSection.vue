@@ -26,14 +26,15 @@ useMotion(targetCard, {
         <div class="grid grid-cols-1 md:grid-cols-3 md:gap-4 w-full px-4 md:px-7 capitalize">
             <div
                 class="col-span-1 w-full h-auto bg-slate-300 flex flex-col items-center rounded-lg my-2 overflow-hidden">
-                <img src="../assets/notfound.png" class="w-full" alt="">
+                <img src="../assets/quickbytes.png" class="w-full h-[30vh] object-cover" alt="">
 
                 <div class="mt-3 px-4">
                     <h1 class="text-2xl md:text-3xl font-semibold text-center">quickbytes</h1>
                     <p class="text-center text-md my-2">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Inventore,
-                        perspiciatis!
+                        Website to help discover recipes and share your own.
+                        Developed using <b>VueJs</b> and <b>SupaBase</b> for the back end.
+                        Additional recipes gotten from the <b>mealDB</b> api
+
                     </p>
                     <div class="inline-flex items-center justify-center w-full py-3">
                         <a href="https://github.com/musaubrian/quick-bytes" target="_blank"
