@@ -8,7 +8,7 @@ const isOpen = ref(false);
 <template>
     <nav v-auto-animate class="dropdown-nav" @click="isOpen = !isOpen">
         <div class="header">
-            <div class="dropdown-init inline-flex w-full items-center justify-end mr-3 p-2">
+            <div class="dropdown-init inline-flex w-full items-center justify-end mr-3 p-3">
                 <RouterLink to="#" class="mobile-links">
                     <img src="../assets/menu.svg" alt="menu-icon right">
                 </RouterLink>

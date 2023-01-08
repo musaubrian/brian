@@ -9,7 +9,7 @@ useMotion(targetCard, {
         opacity: 0,
         y: 200
     },
-    visible: {
+    visibleOnce: {
         opacity: 1,
         y: 0,
         transition: {
