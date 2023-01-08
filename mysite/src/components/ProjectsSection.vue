@@ -75,7 +75,7 @@ useMotion(targetCard, {
                 <div class="mt-3 px-4">
                     <h1 class="text-2xl md:text-3xl font-semibold text-center">TinieUrl</h1>
                     <p class="text-center text-md my-2">
-                        Url shortener with the backend written in Golang and frint ed written using NUXT3
+                        Url shortener with the backend written in Golang and front end written using NUXT3
                     </p>
                     <div class="inline-flex items-center justify-center w-full py-3">
                         <a href="https://github.com/musaubrian/tinyurl" target="_blank"
