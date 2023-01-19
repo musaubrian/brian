@@ -25,41 +25,41 @@ useMotion(targetCard, {
     <div class="my-4 h-auto" ref="targetCard">
         <div class="grid grid-cols-1 md:grid-cols-3 md:gap-4 w-full px-4 md:px-7 capitalize">
             <div
-                class="col-span-1 w-full h-auto bg-slate-300 flex flex-col items-center rounded-lg my-2 overflow-hidden">
+                    class="col-span-1 w-full h-auto bg-slate-300 flex flex-col items-center rounded-lg my-2 overflow-hidden">
                 <img src="../assets/quickbytes.png" class="w-full h-[30vh] object-cover" alt="">
 
                 <div class="mt-3 px-4">
                     <h1 class="text-2xl md:text-3xl font-semibold text-center">quickbytes</h1>
                     <p class="text-center text-md my-2">
-                        Website to help discover recipes and share your own.
-                        Developed using <b>VueJs</b> and <b>SupaBase</b> for the back end.
-                        Additional recipes gotten from the <b>mealDB</b> api
+                    Website to help discover recipes and share your own.
+                    Developed using <b>VueJs</b> and <b>SupaBase</b> for the back end.
+                    Additional recipes gotten from the <b>mealDB</b> api
 
                     </p>
                     <div class="inline-flex items-center justify-center w-full py-3">
                         <a href="https://github.com/musaubrian/quick-bytes" target="_blank"
-                            class="bg-green-600 p-3 mr-2 text-gray-100 font-semibold rounded-md">source</a>
+                        class="bg-green-600 p-3 mr-2 text-gray-100 font-semibold rounded-md">
+                        source</a>
                         <a href="https://quickbyts.netlify.app" target="_blank"
-                            class="bg-blue-500 ml-2 p-3 rounded-md">live
-                            site</a>
-
+                        class="bg-blue-500 ml-2 p-3 rounded-md">
+                        live site</a>
                     </div>
                 </div>
             </div>
 
             <div
-                class="col-span-1 w-full h-auto bg-slate-300 flex flex-col items-center rounded-lg my-2 overflow-hidden">
+                    class="col-span-1 w-full h-auto bg-slate-300 flex flex-col items-center rounded-lg my-2 overflow-hidden">
                 <img src="../assets/tinydb.png" class="w-full h-[30vh] object-cover" alt="">
 
                 <div class="mt-3 px-4">
                     <h1 class="text-2xl md:text-3xl font-semibold text-center">tinyDb</h1>
                     <p class="text-center text-md my-2">
-                        CLI app that generates passwords and stores passwords in an encrypted file locally using the
-                        TInydb module.
+                    CLI app that generates passwords and stores passwords in an encrypted file locally using the
+                    TInydb module.
                     </p>
                     <div class="inline-flex items-center justify-center w-full py-3">
                         <a href="https://github.com/musaubrian/myTinyDb" target="_blank"
-                            class="bg-green-600 p-3 mr-2 text-gray-100 font-semibold rounded-md">source</a>
+                                                                         class="bg-green-600 p-3 mr-2 text-gray-100 font-semibold rounded-md">source</a>
                         <button disabled="disabled" class="bg-blue-500 opacity-89 ml-2 p-3 rounded-md">
                             <s>Live site</s>
 
@@ -69,25 +69,41 @@ useMotion(targetCard, {
             </div>
 
             <div
-                class="col-span-1 w-full h-auto bg-slate-300 flex flex-col items-center rounded-lg my-2 overflow-hidden">
+                    class="col-span-1 w-full h-auto bg-slate-300 flex flex-col items-center rounded-lg my-2 overflow-hidden">
                 <img src="../assets/url.jpeg" class="w-full h-[30vh] object-cover" alt="">
 
                 <div class="mt-3 px-4">
                     <h1 class="text-2xl md:text-3xl font-semibold text-center">TinieUrl</h1>
                     <p class="text-center text-md my-2">
-                        Url shortener with the backend written in Golang and front end written using NUXT3
+                    Url shortener with the backend written in Golang and front end written using NUXT3
                     </p>
                     <div class="inline-flex items-center justify-center w-full py-3">
                         <a href="https://github.com/musaubrian/tinyurl" target="_blank"
-                            class="bg-green-600 p-3 mr-2 text-gray-100 font-semibold rounded-md">source</a>
+                                                                        class="bg-green-600 p-3 mr-2 text-gray-100 font-semibold rounded-md">source</a>
                         <a href="https://trl.netlify.app" target="_blank" class="bg-blue-500 ml-2 p-3 rounded-md">live
                             site</a>
-
                     </div>
                 </div>
             </div>
 
-
+            <div 
+            class="col-span-1 w-full h-auto bg-slate-300 flex flex-col items-center rounded-lg my-2 overflow-hidden">
+            <img src="../assets/newspulse.png" class="w-full h-[30vh] object-cover" alt="">
+            
+            <div class="mt-3 px-4">
+                <h1 class="text-2xl md:text-3xl font-semibold text-center">NewsPulse</h1>
+                <p class="text-center text-md my-2">
+                    Site to view top trending news in different categories.
+                </p>
+                <div class="inline-flex items-center justify-center w-full py-3">
+                    <a href="https://github.com/musaubrian/newspulse" target="_blank"
+                    class="bg-green-600 p-3 mr-2 text-gray-100 font-semibold rounded-md">source</a>
+                    <a href="https://newspulse.netlify.app" target="_blank" class="bg-blue-500 ml-2 p-3 rounded-md">
+                        live site
+                    </a>
+                </div>
+            </div>
         </div>
+    </div>
     </div>
 </template>
