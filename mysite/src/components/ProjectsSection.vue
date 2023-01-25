@@ -96,14 +96,14 @@ useMotion(targetCard, {
                 </div>
 
                 <div class="col-span-1 w-full h-auto bg-slate-300 flex flex-col items-center rounded-lg my-2 overflow-hidden">
-                    <img src="../assets/notfound.png" class="w-full h-[30vh] object-cover" alt="">
+                    <img src="../assets/tg.png" class="w-full h-[30vh] object-cover" alt="">
                     <div class="mt-3 px-4">
                         <h1 class="text-2xl md:text-3xl font-semibold text-center">TinyGo</h1>
                         <p class="text-center text-md my-2">
                             CLI password manager written in Go
 
                             (implementation of <a href="https://github.com/musaubrian/myTinyDb"
-                            class="text-blue-500 font-semibold"
+                            class="text-blue-600 font-semibold"
                             target="_blank">TinyDb</a>)
                         </p>
                         <div class="inline-flex items-center justify-center w-full py-3">
@@ -112,6 +112,27 @@ useMotion(targetCard, {
                             <a href="https://musaubrian.github.io/tinygo" target="_blank" class="bg-blue-500 ml-2 p-3 rounded-md">
                                 live site
                             </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-span-1 w-full h-auto bg-slate-300 flex flex-col items-center rounded-lg my-2 overflow-hidden">
+                    <img src="../assets/notfound.png" class="w-full h-[30vh] object-cover" alt="">
+                    <div class="mt-3 px-4">
+                        <h1 class="text-2xl md:text-3xl font-semibold text-center">Auto-Github</h1>
+                        <p class="text-center text-md my-2 text-nomarl">
+                            CLI tool to create new repos and check issues from github.
+                            <br>
+                            motivation from <a href="https://cli.github.com"
+                            class="text-blue-700 font-semibold"
+                            target="_blank">GithubCLI</a>
+                        </p>
+                        <div class="inline-flex items-center justify-center w-full py-3">
+                            <a href="https://github.com/musaubrian/auto-github" target="_blank"
+                            class="bg-green-600 p-3 mr-2 text-gray-100 font-semibold rounded-md">source</a>
+                            <button disabled class="bg-blue-500 ml-2 p-3 rounded-md">
+                                <s>live site</s>
+                            </button>
                         </div>
                     </div>
                 </div>
