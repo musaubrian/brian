@@ -27,13 +27,16 @@ useMotion(targetEl, {
         </div>
         <div class="about-me">
             <p>
-                Full-stack web developer. Experienced in HTML, CSS and JavaScript.
-                Mostly work with VueJs for the front end part of projects and Python and MySQL, Golang and Postgres for
-                the back end.
+                I am an experienced developer with a focus on creating visually
+                appealing websites. I have a strong understanding of web development
+                technologies and am able to create highly functional and responsive websites.
             </p>
             <p>
-                Willing to learn and use any preferred frameworks
-                Open-minded and open to learning opportunities.
+                I have an interest in scripting and have a few command-line interface (CLI) tools
+                that have been useful in automating tasks and integrating with other software.
+                <br>
+                I am dedicated to finding elegant solutions to complex problems and am always
+                looking for ways to improve my skills and stay current in the industry.
             </p>
             <hr />
             <div class="large-view-btn">
@@ -76,7 +79,7 @@ useMotion(targetEl, {
     margin: auto;
     flex-direction: column;
     align-items: center;
-    justify-content: safe;
+    justify-content: center;
 }
 
 .about-image {
@@ -94,7 +97,7 @@ useMotion(targetEl, {
 
 .about-me p {
     padding: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align: justify;
 }
 

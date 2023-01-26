@@ -23,6 +23,10 @@ useMotion(targetCard, {
 
 <template>
     <div class="my-4 h-auto" ref="targetCard">
+        <h1 class="text-gray-800 text-center font-black text-4xl mt-6 mb-3">
+            <span class="text-slate-500 opacity-50">#</span>
+            Projects
+        </h1>
         <div class="grid grid-cols-1 md:grid-cols-3 md:gap-4 w-full px-4 md:px-7 capitalize">
             <div
             class="col-span-1 w-full h-auto bg-slate-300 flex flex-col items-center rounded-lg my-2 overflow-hidden">

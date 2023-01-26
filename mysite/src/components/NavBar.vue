@@ -19,9 +19,6 @@
 
 <script setup>
     import { RouterLink } from 'vue-router';
-    // export default {
-    //     components: {RouterLink}
-    // }
 </script>
 
 <style scoped>
@@ -45,7 +42,7 @@
         flex-direction: row;
         justify-content: flex-end;
         align-content: center;
-        width: 80%;
+        width: 100%;
         padding: 0.5rem;
         background-color: transparent;
     }
