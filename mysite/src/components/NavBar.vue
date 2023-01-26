@@ -1,6 +1,6 @@
 <template>
     <nav class="navbar">
-        <ul>
+        <ul class="md: w-[95%]">
             <li>
                 <RouterLink to="/" class="_link">Home</RouterLink> 
             </li>
@@ -49,7 +49,7 @@
     li ._link{
         padding: 1rem;
         font-size: 1.5rem;
-        font-weight: 650;
+        font-weight: 700;
         text-decoration: none;
         justify-content: center;
         color: var(--color-text-black);

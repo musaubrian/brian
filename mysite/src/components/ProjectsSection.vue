@@ -23,7 +23,7 @@ useMotion(targetCard, {
 
 <template>
     <div class="my-4 h-auto" ref="targetCard">
-        <h1 class="text-gray-800 text-center font-black text-4xl mt-6 mb-3">
+        <h1 class="sm:text-gray-800 sm:text-center sm:font-semibold sm:text-4xl sm:mt-6 sm:mb-3 md:hidden">
             <span class="text-slate-500 opacity-50">#</span>
             Projects
         </h1>

@@ -126,6 +126,9 @@ h1 {
 }
 
 @media screen and (max-width: 580px) {
+    .homepage {
+        height: 90vh
+    }
     .mobile-button-large {
         display: none;
     }

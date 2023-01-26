@@ -27,16 +27,16 @@ useMotion(targetEl, {
         </div>
         <div class="about-me">
             <p>
-                I am an experienced developer with a focus on creating visually
-                appealing websites. I have a strong understanding of web development
-                technologies and am able to create highly functional and responsive websites.
+                I am a developer with a focus on creating visually appealing websites 
+                with an understanding of web development
+                technologies and I'm able to create functional and responsive websites.
             </p>
             <p>
-                I have an interest in scripting and have a few command-line interface (CLI) tools
+                Interested in scripting and have built a few command-line interface (CLI) tools
                 that have been useful in automating tasks and integrating with other software.
                 <br>
-                I am dedicated to finding elegant solutions to complex problems and am always
-                looking for ways to improve my skills and stay current in the industry.
+                Dedicated to finding elegant solutions to problems and always
+                looking for ways to improve my skills.
             </p>
             <hr />
             <div class="large-view-btn">

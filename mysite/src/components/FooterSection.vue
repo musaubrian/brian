@@ -1,8 +1,12 @@
+<script setup>
+    const year = new Date().getFullYear()
+</script>
+
 <template>
     <footer>
         <div class="footer-container">
             <span>
-                <a href="https://bio.link/musaubrian" target="_blank">©️2023 musuabrian</a>
+                <a href="https://bio.link/musaubrian" target="_blank">© {{ year }} musuabrian</a>
             </span>
         </div>
 
