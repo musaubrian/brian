@@ -23,7 +23,7 @@ useMotion(targetEl, {
 <template>
     <div class="about" ref="targetEl">
         <div class="about-image">
-            <img src="../assets/avataaars.png" alt="">
+            <img src="../assets/avataaars.png" alt="avatar">
         </div>
         <div class="about-me">
             <p>

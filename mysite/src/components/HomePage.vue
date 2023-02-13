@@ -1,7 +1,7 @@
 <template>
     <div class="homepage">
         <div class="image-container">
-            <img src="../assets/avataaars.png">
+            <img src="../assets/avataaars.png" alt="avatar">
         </div>
         <div class="welcome">
             <h1 class="font-semibold"> I'm Ernest </h1>
@@ -14,7 +14,9 @@
             </a>
         </div>
         <div class="socials">
-            <a href="https://twitter.com/_musaubrian" target="_blank" class="social-icons">
+            <a href="https://twitter.com/_musaubrian"
+                data-tooltip-target=""
+                target="_blank" class="social-icons">
                 <font-awesome-icon icon="fa-brands fa-twitter" />
             </a>
             <a href="https://linkedin.com/in/ernest-musau" target="_blank" class="social-icons">
@@ -99,7 +101,7 @@ h1 {
 
 .social-icons:hover {
     color: var(--color-text-white-mute);
-    transition: 500ms;
+    transition: 300ms;
 }
 
 .mobile-button-small {
@@ -116,13 +118,13 @@ h1 {
     color: var(--color-text-black);
     font-size: 1.2rem;
     font-weight: 650;
-    transition: 300ms;
+    transition: 200ms;
 }
 
 .mobile-button-large:hover {
     background-color: var(--color-text-black);
     color: var(--color-text-white);
-    transition: 300ms ease;
+    transition: 200ms ease;
 }
 
 @media screen and (max-width: 580px) {
@@ -161,13 +163,13 @@ h1 {
         color: var(--color-text-black);
         font-size: 1.2rem;
         font-weight: 650;
-        transition: 300ms;
+        transition: 200ms;
     }
 
     .mobile-button-small:hover {
         background-color: var(--color-text-black);
         color: var(--color-text-white);
-        transition: 300ms;
+        transition: 200ms;
     }
 
     @keyframes typewriter {
