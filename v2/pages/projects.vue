@@ -8,6 +8,23 @@
         </h1>
         <div class="grid grid-cols-1 md:grid-cols-3 md:gap-4 w-full px-4 md:px-7 capitalize">
             <div class="col-span-1 w-full h-auto bg-slate-300 flex flex-col items-center rounded-lg my-2 overflow-hidden">
+                <NuxtImg src="/static/notfound.png" class="w-full h-[30vh] object-cover" alt="" placeholder />
+                <div class="mt-3 px-4">
+                    <h1 class="text-2xl md:text-3xl font-semibold text-center">PyShare</h1>
+                    <p class="text-center text-md my-2 text-nomarl">
+                        Python program that allows users to easily share files across the same network.
+                        It is currently a <b>WIP</b>
+                    </p>
+                    <div class="inline-flex items-center justify-center w-full py-3">
+                        <NuxtLink to="https://github.com/musaubrian/pyshare" target="_blank"
+                            class="bg-green-600 p-3 mr-2 text-gray-100 font-semibold rounded-md">source</NuxtLink>
+                        <button disabled class="bg-blue-500 ml-2 p-3 rounded-md">
+                            <s>live site</s>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-span-1 w-full h-auto bg-slate-300 flex flex-col items-center rounded-lg my-2 overflow-hidden">
                 <NuxtImg src="/static/quickbytes.png" class="w-full h-[30vh] object-cover" placeholder alt="" />
                 <div class="mt-3 px-4">
                     <h1 class="text-2xl md:text-3xl font-semibold text-center">quickbytes</h1>

@@ -6,10 +6,16 @@ const isOpen = ref(false);
 <template>
     <nav class="dropdown-nav" @click="isOpen = !isOpen">
         <div class="header">
-            <NuxtImg placeholder src="/static/Artboard.png" width="120" height="20" />
+
             <div class="dropdown-init inline-flex w-full items-center justify-end mr-3 p-3">
                 <RouterLink to="#" class="mobile-links">
-                    <NuxtImg placeholder src="/static/menu.svg" alt="menu-icon right" width="25" height="25" />
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-7 h-7">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+                    </svg>
+
+
                 </RouterLink>
             </div>
         </div>

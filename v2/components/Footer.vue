@@ -1,6 +1,7 @@
 <template>
     <footer>
-        <div class="inline-flex w-full justify-center items-center bg-[#9b9a9a56] static bottom-0 mt-20 md:hidden">
+        <div
+            class="inline-flex w-full justify-center items-center bg-[#9b9a9a56] static bottom-0 sm:mt-20 md:m-0 md:hidden">
             <span>
                 <NuxtLink to="https://bio.link/musaubrian" target="_blank">© {{ year }} musuabrian</NuxtLink>
             </span>
