@@ -1,19 +1,19 @@
 <template>
-    <div class="about flex flex-col md:flex-row" ref="targetEl">
+    <div class="about flex flex-col md:flex-row">
         <div class="about-image">
             <NuxtImg src="/static/avataaars.png" alt="avatar" class="rounded-full w-3/6" placeholder />
         </div>
         <div class="about-me">
-            <p class="mb-2">
+            <p class="mb-2 md:mb-0">
                 I am a developer with a focus on creating visually appealing websites
                 with an understanding of web development
                 technologies and I'm able to create functional and responsive websites.
             </p>
-            <p class="mb-2">
+            <p class="mb-2 md:mb-0">
                 Interested in scripting and have built a few command-line interface (CLI) tools
                 that have been useful in automating tasks and integrating with other software.
             </p>
-            <p class="mb-2">
+            <p class="mb-2 md:mb-0">
                 Dedicated to finding elegant solutions to problems and always
                 looking for ways to improve my skills.
                 <br>
