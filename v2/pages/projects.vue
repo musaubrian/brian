@@ -1,4 +1,8 @@
-<!--  -->
+<script setup>
+definePageMeta({
+    layout: "default",
+})
+</script>
     
 <template>
     <div class="my-4 h-auto">

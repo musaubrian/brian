@@ -14,7 +14,6 @@
   "dependencies": {
     "@nuxt/image-edge": "^1.0.0-27991759.1a5eea1",
     "@nuxtjs/tailwindcss": "^6.6.4",
-    "@vercel/analytics": "^0.1.11",
-    "sharp": "^0.32.0"
+    "@vercel/analytics": "^0.1.11"
   }
 }

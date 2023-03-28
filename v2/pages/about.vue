@@ -1,3 +1,9 @@
+<script setup>
+definePageMeta({
+    layout: "default"
+})
+</script>
+
 <template>
     <div class="about flex flex-col md:flex-row">
         <div class="about-image">
@@ -47,6 +53,7 @@
         </div>
     </div>
 </template>
+
   
 <style>
 .about {
