@@ -9,11 +9,12 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxtjs/fontaine": "^0.2.4",
     "nuxt": "^3.3.2"
   },
   "dependencies": {
     "@nuxt/image-edge": "^1.0.0-27991759.1a5eea1",
     "@nuxtjs/tailwindcss": "^6.6.4",
-    "@vercel/analytics": "^0.1.11"
+    "@vercel/analytics": "^0.1.11",
   }
 }
