@@ -13,7 +13,7 @@ definePageMeta({
     </h1>
     <div class="grid grid-cols-1 md:grid-cols-3 md:gap-4 w-full px-4 md:px-7 capitalize">
       <div class="col-span-1 w-full h-auto bg-slate-300 flex flex-col items-center rounded-lg my-2 overflow-hidden">
-        <NuxtImg src="/static/notfound.png" class="w-full h-[30vh] object-cover" alt="" placeholder />
+        <NuxtImg sizes="sm:50px md:100px" type="webp" src="/static/notfound.png" class="w-full h-[30vh] object-cover" alt="" placeholder />
         <div class="mt-3 px-4">
           <h1 class="text-2xl md:text-3xl font-semibold text-center">
             PyShare
@@ -32,7 +32,7 @@ definePageMeta({
         </div>
       </div>
       <div class="col-span-1 w-full h-auto bg-slate-300 flex flex-col items-center rounded-lg my-2 overflow-hidden">
-        <NuxtImg src="/static/quickbytes.png" class="w-full h-[30vh] object-cover" placeholder alt="" />
+        <NuxtImg sizes="sm:50px md:100px" type="webp" src="/static/quickbytes.png" class="w-full h-[30vh] object-cover" placeholder alt="" />
         <div class="mt-3 px-4">
           <h1 class="text-2xl md:text-3xl font-semibold text-center">
             quickbytes
@@ -52,7 +52,7 @@ definePageMeta({
       </div>
 
       <div class="col-span-1 w-full h-auto bg-slate-300 flex flex-col items-center rounded-lg my-2 overflow-hidden">
-        <NuxtImg src="/static/tinydb.png" class="w-full h-[30vh] object-cover" alt="" placeholder />
+        <NuxtImg sizes="sm:50px md:100px" type="webp" src="/static/tinydb.png" class="w-full h-[30vh] object-cover" alt="" placeholder />
         <div class="mt-3 px-4">
           <h1 class="text-2xl md:text-3xl font-semibold text-center">tinyDb</h1>
           <p class="text-center text-md my-2">
@@ -71,7 +71,7 @@ definePageMeta({
       </div>
 
       <div class="col-span-1 w-full h-auto bg-slate-300 flex flex-col items-center rounded-lg my-2 overflow-hidden">
-        <NuxtImg src="/static/url.jpeg" class="w-full h-[30vh] object-cover" alt="TinyUrl project image" placeholder />
+        <NuxtImg sizes="sm:50px md:100px" type="webp" src="/static/url.jpeg" class="w-full h-[30vh] object-cover" alt="TinyUrl project image" placeholder />
         <div class="mt-3 px-4">
           <h1 class="text-2xl md:text-3xl font-semibold text-center">
             TinieUrl
@@ -89,7 +89,7 @@ definePageMeta({
         </div>
       </div>
       <div class="col-span-1 w-full h-auto bg-slate-300 flex flex-col items-center rounded-lg my-2 overflow-hidden">
-        <NuxtImg src="/static/newspulse.png" class="w-full h-[30vh] object-cover" alt="" placeholder />
+        <NuxtImg sizes="sm:50px md:100px" type="webp" src="/static/newspulse.png" class="w-full h-[30vh] object-cover" alt="" placeholder />
         <div class="mt-3 px-4">
           <h1 class="text-2xl md:text-3xl font-semibold text-center">
             NewsPulse
@@ -108,7 +108,7 @@ definePageMeta({
       </div>
 
       <div class="col-span-1 w-full h-auto bg-slate-300 flex flex-col items-center rounded-lg my-2 overflow-hidden">
-        <NuxtImg src="/static/tg.png" class="w-full h-[30vh] object-cover" alt="" placeholder />
+        <NuxtImg sizes="sm:50px md:100px" type="webp" src="/static/tg.png" class="w-full h-[30vh] object-cover" alt="" placeholder />
         <div class="mt-3 px-4">
           <h1 class="text-2xl md:text-3xl font-semibold text-center">TinyGo</h1>
           <p class="text-center text-md my-2">
@@ -127,7 +127,7 @@ definePageMeta({
       </div>
 
       <div class="col-span-1 w-full h-auto bg-slate-300 flex flex-col items-center rounded-lg my-2 overflow-hidden">
-        <NuxtImg src="/static/notfound.png" class="w-full h-[30vh] object-cover" alt="" placeholder />
+        <NuxtImg sizes="sm:50px md:100px" type="webp" src="/static/notfound.png" class="w-full h-[30vh] object-cover" alt="" placeholder />
         <div class="mt-3 px-4">
           <h1 class="text-2xl md:text-3xl font-semibold text-center">
             Auto-Github
@@ -149,7 +149,7 @@ definePageMeta({
       </div>
 
       <div class="col-span-1 w-full h-auto bg-slate-300 flex flex-col items-center rounded-lg my-2 overflow-hidden">
-        <NuxtImg src="/static/notfound.png" class="w-full h-[30vh] object-cover" alt="" placeholder />
+        <NuxtImg sizes="sm:50px md:100px" type="webp" src="/static/notfound.png" class="w-full h-[30vh] object-cover" alt="" placeholder />
         <div class="mt-3 px-4">
           <h1 class="text-2xl md:text-3xl font-semibold text-center">
             OpenJournal
