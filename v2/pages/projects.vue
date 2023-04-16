@@ -13,17 +13,16 @@ definePageMeta({
     </h1>
     <div class="grid grid-cols-1 md:grid-cols-3 md:gap-4 w-full px-4 md:px-7 capitalize">
       <div class="col-span-1 w-full h-auto bg-slate-300 flex flex-col items-center rounded-lg my-2 overflow-hidden">
-        <NuxtImg sizes="sm:50px md:100px" type="webp" src="/static/notfound.png" class="w-full h-[30vh] object-cover" alt="" placeholder />
         <div class="mt-3 px-4">
           <h1 class="text-2xl md:text-3xl font-semibold text-center">
-            PyShare
+            pynet
           </h1>
           <p class="text-center text-md my-2 text-nomarl">
             Python program that allows users to easily share files across the
             same network. It is currently a <b>WIP</b>
           </p>
           <div class="inline-flex items-center justify-center w-full py-3">
-            <NuxtLink to="https://github.com/musaubrian/pyshare" target="_blank"
+            <NuxtLink to="https://github.com/musaubrian/pynet" target="_blank"
               class="bg-green-600 p-3 mr-2 text-gray-100 font-semibold rounded-md">source</NuxtLink>
             <button disabled class="bg-blue-500 ml-2 p-3 rounded-md">
               <s>live site</s>
@@ -32,7 +31,6 @@ definePageMeta({
         </div>
       </div>
       <div class="col-span-1 w-full h-auto bg-slate-300 flex flex-col items-center rounded-lg my-2 overflow-hidden">
-        <NuxtImg sizes="sm:50px md:100px" type="webp" src="/static/quickbytes.png" class="w-full h-[30vh] object-cover" placeholder alt="" />
         <div class="mt-3 px-4">
           <h1 class="text-2xl md:text-3xl font-semibold text-center">
             quickbytes
@@ -45,14 +43,14 @@ definePageMeta({
           <div class="inline-flex items-center justify-center w-full py-3">
             <NuxtLink to="https://github.com/musaubrian/quick-bytes" target="_blank"
               class="bg-green-600 p-3 mr-2 text-gray-100 font-semibold rounded-md">source</NuxtLink>
-            <NuxtLink to="https://quickbyts.netlify.app" target="_blank" class="bg-blue-500 ml-2 p-3 rounded-md">live site
-            </NuxtLink>
+            <button disabled class="bg-blue-500 ml-2 p-3 rounded-md">
+              <s>live site</s>
+            </button>
           </div>
         </div>
       </div>
 
       <div class="col-span-1 w-full h-auto bg-slate-300 flex flex-col items-center rounded-lg my-2 overflow-hidden">
-        <NuxtImg sizes="sm:50px md:100px" type="webp" src="/static/tinydb.png" class="w-full h-[30vh] object-cover" alt="" placeholder />
         <div class="mt-3 px-4">
           <h1 class="text-2xl md:text-3xl font-semibold text-center">tinyDb</h1>
           <p class="text-center text-md my-2">
@@ -71,7 +69,6 @@ definePageMeta({
       </div>
 
       <div class="col-span-1 w-full h-auto bg-slate-300 flex flex-col items-center rounded-lg my-2 overflow-hidden">
-        <NuxtImg sizes="sm:50px md:100px" type="webp" src="/static/url.jpeg" class="w-full h-[30vh] object-cover" alt="TinyUrl project image" placeholder />
         <div class="mt-3 px-4">
           <h1 class="text-2xl md:text-3xl font-semibold text-center">
             TinieUrl
@@ -89,7 +86,6 @@ definePageMeta({
         </div>
       </div>
       <div class="col-span-1 w-full h-auto bg-slate-300 flex flex-col items-center rounded-lg my-2 overflow-hidden">
-        <NuxtImg sizes="sm:50px md:100px" type="webp" src="/static/newspulse.png" class="w-full h-[30vh] object-cover" alt="" placeholder />
         <div class="mt-3 px-4">
           <h1 class="text-2xl md:text-3xl font-semibold text-center">
             NewsPulse
@@ -108,7 +104,6 @@ definePageMeta({
       </div>
 
       <div class="col-span-1 w-full h-auto bg-slate-300 flex flex-col items-center rounded-lg my-2 overflow-hidden">
-        <NuxtImg sizes="sm:50px md:100px" type="webp" src="/static/tg.png" class="w-full h-[30vh] object-cover" alt="" placeholder />
         <div class="mt-3 px-4">
           <h1 class="text-2xl md:text-3xl font-semibold text-center">TinyGo</h1>
           <p class="text-center text-md my-2">
@@ -127,7 +122,6 @@ definePageMeta({
       </div>
 
       <div class="col-span-1 w-full h-auto bg-slate-300 flex flex-col items-center rounded-lg my-2 overflow-hidden">
-        <NuxtImg sizes="sm:50px md:100px" type="webp" src="/static/notfound.png" class="w-full h-[30vh] object-cover" alt="" placeholder />
         <div class="mt-3 px-4">
           <h1 class="text-2xl md:text-3xl font-semibold text-center">
             Auto-Github
@@ -149,15 +143,15 @@ definePageMeta({
       </div>
 
       <div class="col-span-1 w-full h-auto bg-slate-300 flex flex-col items-center rounded-lg my-2 overflow-hidden">
-        <NuxtImg sizes="sm:50px md:100px" type="webp" src="/static/notfound.png" class="w-full h-[30vh] object-cover" alt="" placeholder />
         <div class="mt-3 px-4">
           <h1 class="text-2xl md:text-3xl font-semibold text-center">
             OpenJournal
           </h1>
           <p class="text-center text-md my-2 text-nomarl">Journal of some sort
-          <br/>
-          the main aim was to learn how to work with <NuxtLink to="https://trpc.io" target="_blank"><b><u>tRPC</u></b></NuxtLink> and <NuxtLink to="https://clerk.dev" target="_blank"><b><u>Clerk</u></b></NuxtLink>
-          <br />
+            <br />
+            the main aim was to learn how to work with <NuxtLink to="https://trpc.io" target="_blank"><b><u>tRPC</u></b>
+            </NuxtLink> and <NuxtLink to="https://clerk.dev" target="_blank"><b><u>Clerk</u></b></NuxtLink>
+            <br />
           </p>
           <div class="inline-flex items-center justify-center w-full py-3">
             <NuxtLink to="https://github.com/musaubrian/journal/tree/main/journal-t" target="_blank"
