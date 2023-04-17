@@ -7,7 +7,7 @@ definePageMeta({
 <template>
     <div class="about flex flex-col md:flex-row">
         <div class="about-image">
-            <NuxtImg src="/static/avataaars.png" alt="avatar" class="hidden rounded-full w-3/6 md:block" placeholder />
+            <NuxtImg height="50px" width="50px" src="/static/avataaars.png" alt="avatar" class="hidden rounded-full w-3/6 md:block" placeholder />
         </div>
         <div class="about-me">
             <p class="mb-2 md:mb-0">

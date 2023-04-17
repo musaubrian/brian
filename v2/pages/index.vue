@@ -7,7 +7,7 @@ definePageMeta({
 <template>
   <div class="homepage w-full">
     <div class="image-container">
-      <NuxtImg src="/static/avataaars.png" alt="avatar" placeholder class="rounded-full" />
+      <NuxtImg width="50px" height="50px" src="/static/avataaars.png" alt="avatar" placeholder class="rounded-full" />
     </div>
     <div class="w-full h-[60vh] md:h-[50vh]">
       <div class="welcome w-full">
@@ -60,6 +60,7 @@ definePageMeta({
   width: 20%;
   margin: auto;
   padding: 1rem;
+  object-fit: contain;
 }
 
 .image-container img {
