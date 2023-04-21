@@ -14,7 +14,7 @@ definePageMeta({
         <h1 class="font-semibold text-5xl">I'm Ernest</h1>
         <p>Software Developer</p>
         <NuxtLink to="/about"
-          class="md:w-1/6 border-[3px] rounded-[15px] border-[var(--color-text-black)] p-4 my-2 inline-flex justify-center items-center text-xl font-semibold hover:bg-[var(--color-text-black)] transition-all hover:text-[var(--color-text-white)]">
+          class="md:w-[15%] border-[3px] rounded-[15px] border-[var(--color-text-black)] p-4 my-2 inline-flex justify-center items-center text-xl font-semibold hover:bg-[var(--color-text-black)] transition-all hover:text-[var(--color-text-white)]">
           About me
         </NuxtLink>
       </div>
