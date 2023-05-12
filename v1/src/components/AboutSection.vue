@@ -51,12 +51,6 @@ useMotion(targetEl, {
                         <font-awesome-icon icon="fa-envelope" />
                     </a>
                 </div>
-                <div class="call">
-                    <span class="mb-sp">Call me:</span>
-                    <a href="tel: +254792810299" class="mobile-btn">
-                        <font-awesome-icon icon="fa-solid fa-phone" />
-                    </a>
-                </div>
             </div>
         </div>
     </div>
