@@ -1,8 +1,6 @@
 <template>
-    <main>
-        <NavBar />
-        <DropDown />
+    <main class="p-2">
+        <NavBar/>
         <slot />
-        <Footer />
     </main>
 </template>
