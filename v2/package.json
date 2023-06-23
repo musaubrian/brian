@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@nuxt/image-edge": "^1.0.0-27991759.1a5eea1",
-    "@nuxtjs/tailwindcss": "^6.6.4"
+    "@nuxtjs/tailwindcss": "^6.6.4",
+    "typescript": "^5.1.3"
   }
 }
