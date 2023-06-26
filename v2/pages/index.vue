@@ -21,11 +21,7 @@ definePageMeta({
                 <p class="my-2 md:mb-0 text-[1rem] md:text-xl">
                     Blending artistry and engineering in perfect harmony with every line of code.
                 </p>
-                <span class="md:text-xl">Checkout some of the stuff I've built
-                    <NuxtLink to="/projects" class="font-semibold underline">
-                        here
-                    </NuxtLink>
-                </span>
+                <span class="md:text-xl">Checkout some of the stuff I've built </span>
 
             </div>
             <div class="socials w-5/6">
