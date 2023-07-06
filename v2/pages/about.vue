@@ -5,42 +5,41 @@ definePageMeta({
 </script>
 
 <template>
-    <div class="about flex flex-col md:flex-row">
-        <div class="about-image">
-            <NuxtImg height="50px" width="50px" src="/static/avataaars.png" alt="avatar" class="hidden rounded-full w-3/6 md:block" placeholder />
-        </div>
-        <div class="about-me">
-            <p class="mb-2 md:mb-0">
-                I am a developer with a focus on creating visually appealing websites
-                with an understanding of web development
-                technologies and I'm able to create functional and responsive websites.
-            </p>
-            <p class="mb-2 md:mb-0">
-                Interested in scripting and have built a few command-line interface (CLI) tools
-                that have been useful in automating tasks and integrating with other software.
-            </p>
-            <p class="mb-2 md:mb-0">
-                Dedicated to finding elegant solutions to problems and always
-                looking for ways to improve my skills.
-                <br>
-                <span>Checkout some of the things I've built <NuxtLink to="/projects" class="font-semibold underline">here
-                    </NuxtLink>
-                </span>
-            </p>
+    <div class="w-full flex justify-center items-center">
+        <div class="about flex flex-col md:flex-row w-5/6">
+            <div class="about-image">
+                <NuxtImg height="50px" width="50px" src="/static/avataaars.png" alt="avatar"
+                    class="hidden rounded-full w-3/6 md:block" placeholder />
+            </div>
+            <div class="about-me">
+                <p class="mb-2 md:mb-0">
+                    I am a developer with a focus on creating visually appealing websites
+                    with an understanding of web development
+                    technologies and I'm able to create functional and responsive websites.
+                </p>
+                <p class="mb-2 md:mb-0">
+                    Interested in scripting and have built a few command-line interface (CLI) tools
+                    that have been useful in automating tasks and integrating with other software.
+                </p>
+                <p class="mb-2 md:mb-0">
+                    Dedicated to finding elegant solutions to problems and always
+                    looking for ways to improve my skills.
+                </p>
 
-            <hr />
+                <hr />
 
-            <div class="mobile-btn-container">
-                <div class="mail">
-                    <span class="mb-sp">Email me:</span>
-                    <NuxtLink to="mailto: musaubrian15@gmail.com" class="mobile-btn active:text-gray-400">
-                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                            <path
-                                d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
-                        </svg>
-                    </NuxtLink>
+                <div class="mobile-btn-container">
+                    <div class="mail">
+                        <span class="w-4/6 inline-flex justify-center items-center text-xl font-semibold p-2">Email me:</span>
+                        <NuxtLink to="mailto: musaubrian15@gmail.com" class="mobile-btn active:text-gray-400 w-2/6">
+                            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path
+                                    d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
+                            </svg>
+                        </NuxtLink>
+                    </div>
+
                 </div>
-
             </div>
         </div>
     </div>
@@ -51,12 +50,11 @@ definePageMeta({
 .about {
     display: flex;
     flex-direction: row;
-    width: 100%;
     height: 100%;
 }
 
 .about-me {
-    width: 50%;
+    width: 60%;
     padding: 1rem;
     display: flex;
     margin: auto;
@@ -79,9 +77,8 @@ definePageMeta({
 }
 
 .about-me p {
-    padding: 1rem;
+    padding: 0.7rem 0 0.7rem 0;
     font-size: 1.2rem;
-    text-align: justify;
 }
 
 .large-view-btn {
@@ -116,18 +113,16 @@ definePageMeta({
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    width: 100%;
+    width: 90%;
     justify-content: center;
     align-items: center;
     padding-top: 1rem;
 }
 
 .mail {
-    display: flex;
-    width: 60%;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
+    display: inline-flex;
+    width: 100%;
+    /*   justify-content: center;*/
     align-items: center;
 }
 
