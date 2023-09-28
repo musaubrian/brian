@@ -13,8 +13,8 @@ definePageMeta({
       </div>
       <div class="about-me">
         <p class="mb-2 md:mb-0">
-          I am a developer with a focus on creating visually appealing websites
-          with an understanding of web development technologies and I'm able to
+          Developer with a focus on creating visually appealing websites
+          with an understanding of web development technologies able to
           create functional and responsive websites.
         </p>
         <p class="mb-2 md:mb-0">
