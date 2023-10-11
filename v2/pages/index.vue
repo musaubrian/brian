@@ -11,7 +11,7 @@ definePageMeta({
         width="20px"
         src="/static/avataaars.png"
         alt="avatar"
-        class="rounded-full w-3/6 h-3/6"
+        class="rounded-full w-3/6 h-52"
         placeholder
       />
       <h1 class="font-bold text-xl p-2 my-w">Ernest Musau</h1>
