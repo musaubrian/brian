@@ -1,12 +1,6 @@
-<script setup>
-definePageMeta({
-  layout: "default",
-});
-</script>
-
 <template>
-  <div class="w-full flex flex-col justify-center items-center p-3">
-    <div class="md:w-5/6 mt-3">
+  <div class="w-full h-screen flex flex-col justify-center items-center p-3">
+    <div class="w-5/6 mt-3 flex flex-col items-center justify-center">
       <NuxtImg
         height="20px"
         width="20px"
@@ -16,25 +10,11 @@ definePageMeta({
         placeholder
       />
       <h1 class="font-bold text-5xl md:hidden">I'm Ernest</h1>
-
-      <div class="md:inline-flex hidden w-full items-center">
-        <NuxtImg
-          height="20px"
-          width="20px"
-          src="/static/avataaars.png"
-          alt="avatar"
-          class="rounded-fullmd:block my-2 w-[10vw] h-1/6 mr-3"
-          placeholder
-        />
-        <h1 class="font-bold text-5xl">I'm Ernest</h1>
-      </div>
-      <p class="my-2 md:mb-0 text-[1rem] md:text-xl">
-        Blending artistry and engineering in perfect harmony with every line of
-        code.
-      </p>
       <span class="md:text-xl"
         >Checkout some of the stuff I've built
-        <NuxtLink to="projects">here</NuxtLink></span
+        <NuxtLink to="projects" class="text-blue-400 font-semibold underline"
+          >here</NuxtLink
+        ></span
       >
     </div>
     <div class="socials w-5/6">
