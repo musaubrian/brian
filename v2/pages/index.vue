@@ -14,7 +14,7 @@ definePageMeta({
         class="rounded-full w-[100px] h-[100px] my-2"
         placeholder
       />
-      <h1 class="font-bold text-3xl">Ernest Musau</h1>
+      <h1 class="font-bold text-2xl">Ernest Musau</h1>
       <span class="text-lg">Software Engineer</span>
     </div>
     <div class="socials w-5/6">
