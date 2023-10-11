@@ -6,6 +6,7 @@ definePageMeta({
 <template>
   <div class="w-full h-[90svh] flex flex-col justify-center items-center p-3">
     <div class="w-5/6 flex flex-col items-center justify-center">
+     <NuxtLink to="about">
       <NuxtImg
         height="20px"
         width="20px"
@@ -13,7 +14,7 @@ definePageMeta({
         alt="avatar"
         class="rounded-full w-3/6 h-5/6 md:h-[100px] md:w-[100px]"
         placeholder
-      />
+      /></NuxtLink>
       <h1 class="font-bold text-xl p-2 my-2">Ernest Musau</h1>
       <span class="text-lg">Software Engineer</span>
     </div>
@@ -144,7 +145,6 @@ h1 {
   font-size: 3.5rem;
   white-space: nowrap;
   overflow: hidden;
-  animation: typewriter 5s;
 }
 
 .social-icons:hover {
@@ -211,17 +211,6 @@ h1 {
     background-color: var(--color-text-black);
     color: var(--color-text-white);
     transition: 200ms;
-  }
-
-  @keyframes typewriter {
-    from {
-      width: 0%;
-    }
-
-    to {
-      width: 70%;
-      background: transparent;
-    }
   }
 }
 </style>
