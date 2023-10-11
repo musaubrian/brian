@@ -6,29 +6,19 @@ definePageMeta({
 
 <template>
   <div class="w-full flex justify-center items-center">
-    <div class="about flex flex-col md:flex-row w-5/6">
-      <div class="about-image">
-        <NuxtImg
-          height="50px"
-          width="50px"
-          src="/static/avataaars.png"
-          alt="avatar"
-          class="hidden rounded-full w-3/6 md:block"
-          placeholder
-        />
-      </div>
+    <div class="about flex flex-col md:w-5/6 w-[95%]">
       <div class="about-me">
-        <p class="mb-2 md:mb-0">
+        <p class="mb-2 md:mb-0 w-full">
           Developer with a focus on creating visually appealing websites with an
           understanding of web development technologies able to create
           functional and responsive websites.
         </p>
-        <p class="mb-2 md:mb-0">
+        <p class="mb-2 md:mb-0 w-full">
           Interested in scripting and have built a few command-line interface
           (CLI) tools that have been useful in automating tasks and integrating
           with other software.
         </p>
-        <p class="mb-2 md:mb-0">
+        <p class="mb-2 md:mb-0 w-full">
           Dedicated to finding elegant solutions to problems and always looking
           for ways to improve my skills.
           <br />
@@ -45,7 +35,7 @@ definePageMeta({
         </p>
 
         <div class="mobile-btn-container">
-          <div class="mail">
+          <div class="mail w-full md:w-3/6">
             <span
               class="w-4/6 inline-flex justify-center items-center text-xl font-semibold p-2"
               >Email me:</span
@@ -79,7 +69,7 @@ definePageMeta({
 }
 
 .about-me {
-  width: 60%;
+  width: 100%;
   padding: 1rem;
   display: flex;
   margin: auto;
@@ -146,8 +136,6 @@ definePageMeta({
 
 .mail {
   display: inline-flex;
-  width: 100%;
-  /*   justify-content: center;*/
   align-items: center;
 }
 

@@ -6,17 +6,20 @@ definePageMeta({
 <template>
   <div class="w-full h-[90svh] flex flex-col justify-center items-center p-3">
     <div class="w-5/6 flex flex-col items-center justify-center">
-     <NuxtLink to="about" class="w-4/6 inline-flex items-center justify-center">
-      <NuxtImg
-        height="20px"
-        width="20px"
-        src="/static/avataaars.png"
-        alt="avatar"
-        class="rounded-full w-3/6 h-5/6 md:h-[100px] md:w-[100px]"
-        placeholder
+      <NuxtLink
+        to="about"
+        class="w-4/6 inline-flex items-center justify-center"
+      >
+        <NuxtImg
+          height="20px"
+          width="20px"
+          src="/static/avataaars.png"
+          alt="avatar"
+          class="rounded-full w-3/6 h-full md:h-[150px] md:w-[150px]"
+          placeholder
       /></NuxtLink>
-      <h1 class="font-bold text-xl p-2 my-2">Ernest Musau</h1>
-      <span class="text-lg">Software Engineer</span>
+      <h1 class="font-bold text-4xl p-2">Ernest Musau</h1>
+      <span class="text-lg mb-2">Software Engineer</span>
     </div>
     <div class="socials w-5/6">
       <NuxtLink
@@ -111,17 +114,6 @@ definePageMeta({
   padding: 1rem;
 }
 
-.welcome {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.welcome p {
-  font-size: 1.5rem;
-}
-
 .socials {
   display: flex;
   justify-content: center;
@@ -139,12 +131,6 @@ definePageMeta({
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-h1 {
-  font-size: 3.5rem;
-  white-space: nowrap;
-  overflow: hidden;
 }
 
 .social-icons:hover {
@@ -184,10 +170,6 @@ h1 {
   .image-container img {
     width: 50%;
     height: 100%;
-  }
-
-  h1 {
-    font-size: 3rem;
   }
 
   .welcome p {
