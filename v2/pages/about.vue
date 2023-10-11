@@ -1,6 +1,6 @@
 <script setup>
 definePageMeta({
-  layout: "default",
+  layout: "other",
 });
 </script>
 
@@ -8,14 +8,20 @@ definePageMeta({
   <div class="w-full flex justify-center items-center">
     <div class="about flex flex-col md:flex-row w-5/6">
       <div class="about-image">
-        <NuxtImg height="50px" width="50px" src="/static/avataaars.png" alt="avatar"
-          class="hidden rounded-full w-3/6 md:block" placeholder />
+        <NuxtImg
+          height="50px"
+          width="50px"
+          src="/static/avataaars.png"
+          alt="avatar"
+          class="hidden rounded-full w-3/6 md:block"
+          placeholder
+        />
       </div>
       <div class="about-me">
         <p class="mb-2 md:mb-0">
-          Developer with a focus on creating visually appealing websites
-          with an understanding of web development technologies able to
-          create functional and responsive websites.
+          Developer with a focus on creating visually appealing websites with an
+          understanding of web development technologies able to create
+          functional and responsive websites.
         </p>
         <p class="mb-2 md:mb-0">
           Interested in scripting and have built a few command-line interface
@@ -26,8 +32,13 @@ definePageMeta({
           Dedicated to finding elegant solutions to problems and always looking
           for ways to improve my skills.
           <br />
-          <span>Checkout some of the things I've built
-            <NuxtLink to="https://github.com/musaubrian?tab=repositories" target="_blank" class="font-semibold underline">
+          <span
+            >Checkout some of the things I've built
+            <NuxtLink
+              to="https://github.com/musaubrian?tab=repositories"
+              target="_blank"
+              class="font-semibold underline"
+            >
               here
             </NuxtLink>
           </span>
@@ -35,11 +46,22 @@ definePageMeta({
 
         <div class="mobile-btn-container">
           <div class="mail">
-            <span class="w-4/6 inline-flex justify-center items-center text-xl font-semibold p-2">Email me:</span>
-            <NuxtLink to="mailto: musaubrian15@gmail.com" class="mobile-btn active:text-gray-400 w-2/6">
-              <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <span
+              class="w-4/6 inline-flex justify-center items-center text-xl font-semibold p-2"
+              >Email me:</span
+            >
+            <NuxtLink
+              to="mailto: musaubrian15@gmail.com"
+              class="mobile-btn active:text-gray-400 w-2/6"
+            >
+              <svg
+                class="w-6 h-6"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
                 <path
-                  d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
+                  d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"
+                />
               </svg>
             </NuxtLink>
           </div>

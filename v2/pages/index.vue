@@ -1,3 +1,8 @@
+<script setup>
+definePageMeta({
+  layout: "default",
+});
+</script>
 <template>
   <div class="w-full h-screen flex flex-col justify-center items-center p-3">
     <div class="w-5/6 mt-3 flex flex-col items-center justify-center">
@@ -6,16 +11,11 @@
         width="20px"
         src="/static/avataaars.png"
         alt="avatar"
-        class="rounded-full w-[50px] h-[50px] my-2 md:hidden"
+        class="rounded-full w-[50px] h-[50px] my-2"
         placeholder
       />
-      <h1 class="font-bold text-5xl md:hidden">I'm Ernest</h1>
-      <span class="md:text-xl"
-        >Checkout some of the stuff I've built
-        <NuxtLink to="projects" class="text-blue-400 font-semibold underline"
-          >here</NuxtLink
-        ></span
-      >
+      <h1 class="font-bold text-4xl md:hidden">Ernest Musau</h1>
+      <span class="md:text-lg">Software Engineer</span>
     </div>
     <div class="socials w-5/6">
       <NuxtLink
@@ -60,6 +60,19 @@
         >
           <path
             d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"
+          />
+        </svg>
+      </NuxtLink>
+
+      <NuxtLink href="/projects" class="social-icons">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          class="w-10 h-10"
+        >
+          <path
+            d="M19.906 9c.382 0 .749.057 1.094.162V9a3 3 0 00-3-3h-3.879a.75.75 0 01-.53-.22L11.47 3.66A2.25 2.25 0 009.879 3H6a3 3 0 00-3 3v3.162A3.756 3.756 0 014.094 9h15.812zM4.094 10.5a2.25 2.25 0 00-2.227 2.568l.857 6A2.25 2.25 0 004.951 21H19.05a2.25 2.25 0 002.227-1.932l.857-6a2.25 2.25 0 00-2.227-2.568H4.094z"
           />
         </svg>
       </NuxtLink>
