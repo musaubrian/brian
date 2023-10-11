@@ -5,7 +5,7 @@ definePageMeta({
 </script>
 <template>
   <div class="w-full h-[90svh] flex flex-col justify-center items-center p-3">
-    <div class="w-5/6 h-[70%] flex flex-col items-center justify-between">
+    <div class="w-5/6 h-[70%] flex flex-col items-center justify-center">
       <NuxtImg
         height="20px"
         width="20px"
@@ -14,7 +14,7 @@ definePageMeta({
         class="rounded-full w-[100px] h-[100px]"
         placeholder
       />
-      <h1 class="font-bold text-2xl my-2">Ernest Musau</h1>
+      <h1 class="font-bold text-xl my-2">Ernest Musau</h1>
       <span class="text-lg">Software Engineer</span>
     </div>
     <div class="socials w-5/6">
