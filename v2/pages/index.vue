@@ -6,7 +6,7 @@ definePageMeta({
 <template>
   <div class="w-full h-[90svh] flex flex-col justify-center items-center p-3">
     <div class="w-5/6 flex flex-col items-center justify-center">
-     <NuxtLink to="about" class="w-full">
+     <NuxtLink to="about" class="w-4/6 inline-flex items-center justify-center">
       <NuxtImg
         height="20px"
         width="20px"
