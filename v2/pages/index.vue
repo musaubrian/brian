@@ -11,10 +11,10 @@ definePageMeta({
         width="20px"
         src="/static/avataaars.png"
         alt="avatar"
-        class="rounded-full w-3/6 h-5/6 mb-2"
+        class="rounded-full w-3/6 h-5/6 md:h-[100px] md:w-[100px]"
         placeholder
       />
-      <h1 class="font-bold text-xl p-2 my-w">Ernest Musau</h1>
+      <h1 class="font-bold text-xl p-2 my-2">Ernest Musau</h1>
       <span class="text-lg">Software Engineer</span>
     </div>
     <div class="socials w-5/6">
