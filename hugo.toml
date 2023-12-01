@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://musaubrian.github.io/brian/'
 defaultContentLanguage = "en"
 languageCode = "en"
 
